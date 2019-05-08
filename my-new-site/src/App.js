@@ -1,26 +1,27 @@
 import React from 'react';
-import logo from './logo.svg';
+import californiaImage from './images/California.jpg';
 import './App.css';
+
+const headerImgStyle = {
+  position: 'center',
+  backgroundRepeat: 'no-repeat',
+  backgroundSize: 'cover',
+  width: '100%'
+}
+
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <img style={headerImgStyle} src={californiaImage} className="App-logo" alt="logo" />
       </header>
     </div>
   );
 }
+
+
+
 
 export default App;
