@@ -1,24 +1,39 @@
+.App{
+    background-color: rgba(0, 0, 0, 0);
+}
+
 .bannerImage {
+    background-image: url('../images/California.jpg');
     position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     height: 100vh;
     width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.bannerOverlay {
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100vw;
+    height: 100vh;
+}
+
+.bannerName {
+    color: white;
+    position: relative;
+    text-align: center;
+    margin: 0;
+    top: 40%;
+    font-family: "Raleway";
+    font-size: 80px; 
 }
 
 @media screen and (max-width: 992px) {
-    .bannerImage {
-        width: auto;
-        height: 100vh;
-        position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        margin-left: -20%;
-    }
+
+    
 }
 
 @media screen and (max-width: 600px) {
-    .bannerImage {
-        margin-left: -50%;
-    }
+
 }

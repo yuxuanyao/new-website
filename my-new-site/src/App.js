@@ -10,14 +10,14 @@ import './css/banner.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img className="bannerImage" src={californiaImage} alt="california" />
+      <header className="bannerImage">
+        <div className="bannerOverlay">
+          <h1 className="bannerName">Yuxuan Yao</h1>
+        </div>
       </header>
     </div>
   );
 }
-
-
 
 
 export default App;
