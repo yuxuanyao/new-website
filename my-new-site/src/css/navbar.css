@@ -1,0 +1,38 @@
+.topnav{
+    padding-top: 2%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    width: 100%;
+}
+
+.topnav ul{
+    margin:0;
+    padding: 0;
+}
+
+.topnav li{
+    margin: 10px;
+}
+
+.navlinks{
+    display: inline-flex;
+}
+
+.navlinks a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 992px) {
+
+    
+}
+
+@media screen and (max-width: 600px) {
+    .navlinks{
+        font-size: 14px;
+    }
+}

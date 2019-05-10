@@ -24,10 +24,25 @@
     position: relative;
     text-align: center;
     margin: 0;
-    top: 40%;
+    top: 35%;
     font-family: "Raleway";
     font-size: 80px; 
 }
+
+.bannerNameHello {
+    color: white;
+    position: relative;
+    text-align: center;
+    margin: 0;
+    top: 35%;
+    font-family: "Raleway";
+    font-size: 80px; 
+    color: #ffe5d5
+}
+
+
+
+
 
 @media screen and (max-width: 992px) {
 
