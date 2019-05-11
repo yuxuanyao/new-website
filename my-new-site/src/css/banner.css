@@ -17,6 +17,9 @@
     background-color: rgba(0, 0, 0, 0.7);
     width: 100vw;
     height: 100vh;
+    border: solid;
+    border-width: 0 0 5px 0;
+    border-color: #ffd4d4;
 }
 
 .bannerName {

@@ -37,7 +37,7 @@ class Topnav extends React.Component {
         return (
             <div class="topnav" style={{
                 transform: `translate(0, ${this.state.slide})`,
-                transition: 'transform 90ms linear',
+                transition: 'transform 0.2s linear',
             }}>
                 <ul>
                     <li className="navlinks"><a href="#home">Home</a></li>
