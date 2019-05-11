@@ -14,7 +14,7 @@
 }
 
 .bannerOverlay {
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.7);
     width: 100vw;
     height: 100vh;
 }
@@ -30,14 +30,13 @@
 }
 
 .bannerNameHello {
-    color: white;
     position: relative;
     text-align: center;
     margin: 0;
     top: 35%;
     font-family: "Raleway";
     font-size: 80px; 
-    color: #ffe5d5
+    color: #ffd4d4
 }
 
 
@@ -45,10 +44,22 @@
 
 
 @media screen and (max-width: 992px) {
+    .bannerName {
+        font-size: 60px; 
+    }
 
+    .bannerNameHello {
+        font-size: 60px; 
+    }
     
 }
 
 @media screen and (max-width: 600px) {
+    .bannerName {
+        font-size: 50px; 
+    }
 
+    .bannerNameHello {
+        font-size: 50px; 
+    }
 }

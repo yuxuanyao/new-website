@@ -13,7 +13,7 @@
 }
 
 .topnav li{
-    margin: 10px;
+    margin: 10px 20px;
 }
 
 .navlinks{
@@ -24,10 +24,32 @@
     color: white;
     text-decoration: none;
     font-size: 18px;
+    
 }
 
-@media screen and (max-width: 992px) {
+.navlinks a:hover{
+    color: salmon;
+    
+}
 
+.navlinks a::after{
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #fff;
+    transition: width .3s;
+}
+.navlinks a:hover::after{
+    width: 100%;
+    transition: width .3s;
+}
+
+
+@media screen and (max-width: 992px) {
+    .topnav li{
+        margin: 10px 10px;
+    }
     
 }
 
