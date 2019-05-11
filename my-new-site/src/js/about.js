@@ -8,7 +8,7 @@ class About extends React.Component {
         return (
             <div class="about">
                 <img className="pfp" src={pfp}></img>
-                {/* <h1>About Me</h1> */}
+                <h1>About Me</h1>
 
 
             </div>
