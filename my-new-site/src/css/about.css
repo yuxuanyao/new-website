@@ -1,5 +1,13 @@
+.about {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+
 .pfp {
     width: 20%;
     height: auto;
     border-radius: 100%;
+    margin: 20px;
 }
