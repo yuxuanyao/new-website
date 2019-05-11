@@ -24,12 +24,12 @@
     color: white;
     text-decoration: none;
     font-size: 18px;
-    
+    transition: color .3s;
 }
 
 .navlinks a:hover{
     color: salmon;
-    
+    transition: color .3s;
 }
 
 .navlinks a::after{
