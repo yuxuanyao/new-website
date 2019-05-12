@@ -5,7 +5,6 @@
     background-color: rgba(255, 255, 255, 0.15);
 }
 
-
 .aboutTitle{
     font-family: Raleway;
     font-size: 40px; 
@@ -13,7 +12,7 @@
     text-align: center;
     width: 30%;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 80px;
     color: #3d3d3d
 }
 
@@ -30,10 +29,84 @@
     width: 20%;
 }
 
+.aboutContent {
+    display: inline;
+}
+
+.aboutText {
+    width: 50%;
+    float: right;
+    margin: 3% 5% 5% 5%;
+    font-family: Raleway;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.aboutText p {
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+
+.aboutText li{
+    font-weight: 600;
+    line-height: 2;
+    font-size: 18px;
+}
+
 .pfp {
     width: 20%;
     height: auto;
     border-radius: 50%;
-    margin: 20px;
-    align-self: center;
+    margin: 5% 5% 5% 10%;
+    float: left;
+}
+
+
+.imageContainer {
+    display: inline;
+}
+
+.techIconContainer{
+    display: 
+}
+
+.techIcon {
+    width: 10%;
+    height: auto;
+    margin: 5% 5% 5% 5%;
+    display: block
+}
+
+
+@media screen and (max-width: 992px) {
+
+    
+}
+
+@media screen and (max-width: 600px) {
+    .techIconContainer{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .techIcon{
+        width:10%;
+    }
+
+    .aboutContent{
+        display: flex;
+        flex-direction: column;
+    }
+    .pfp{
+        align-self: center;
+        margin: 5% 5% 5% 5%;
+        width: 40%
+    }
+
+    .aboutText{
+        align-self: center;
+        margin: 5% 5% 5% 5%;
+    }
+
 }
