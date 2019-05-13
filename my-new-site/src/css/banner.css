@@ -8,9 +8,11 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
     height: 100vh;
     width: 100%;
     background-color: rgba(0, 0, 0, 0);
+
 }
 
 .bannerOverlay {
@@ -40,7 +42,7 @@
     top: 35%;
     font-family: "Raleway";
     font-size: 80px; 
-    color: #ffd4d4
+    color: #ffd4d4;
 }
 
 
