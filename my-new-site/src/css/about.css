@@ -30,7 +30,7 @@
 }
 
 .aboutContent {
-    display: inline;
+    display: inline-block;
 }
 
 .aboutText {
@@ -58,33 +58,43 @@
     width: 20%;
     height: auto;
     border-radius: 50%;
-    margin: 5% 5% 5% 10%;
-    float: left;
-}
-
-
-.imageContainer {
-    display: inline;
+    margin: 5% 5% 5% 11%;
+    align-self: center;
 }
 
 .techIconContainer{
-    display: 
+    position: relative  ;
 }
 
-.techIcon {
-    width: 10%;
-    height: auto;
-    margin: 5% 5% 5% 5%;
-    display: block
+
+.techIcon{
+    width: 5%;
+    margin: 2% 2% 2% 10%;
+    align-self: center;
 }
 
+@media screen and (max-width: 1200px) {
+    .aboutText p{
+        font-size: 15px;
+        line-height: 1.5;
+    }
+    .aboutText li{
+        font-size: 15px;
+        line-height: 1.5;
+    }
+}
 
 @media screen and (max-width: 992px) {
+    .aboutText p{
+        font-size: 18px;
+        line-height: 1.5;
+    }
+    .aboutText li{
+        font-size: 18px;
+        line-height: 2;
+    }
 
-    
-}
 
-@media screen and (max-width: 600px) {
     .techIconContainer{
         display: flex;
         flex-direction: row;
@@ -106,7 +116,13 @@
 
     .aboutText{
         align-self: center;
+        width: 65%;
         margin: 5% 5% 5% 5%;
     }
+    
+}
+
+@media screen and (max-width: 600px) {
+    
 
 }

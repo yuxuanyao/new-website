@@ -16,16 +16,7 @@ class About extends React.Component {
 
                 <div className="aboutContent">
 
-                    <div className="imageContainer">
-                        <img className="pfp" src={pfp}></img>
-
-                        {/* <div className="techIconContainer">
-                            <img className="techIcon" src={ai}></img>
-                            <img className="techIcon" src={fullstack}></img>
-                            <img className="techIcon" src={webdev}></img>
-                            <img className="techIcon" src={quant}></img>
-                        </div> */}
-                    </div>
+                    <img className="pfp" src={pfp}></img>
 
 
                     <div className="aboutText">
@@ -52,9 +43,21 @@ class About extends React.Component {
                             <li>Quantitative Analysis</li>
                         </ul>
 
+                        <p>During my spare time, I really enjoy attending hackathons as it not only allows me to learn a LOT, but it also provides me with an excuse to travel!
+                            I also really like to think of creative to help the community using technology through building personal projects.
+                        </p>
+                        <p>On the non-technical side, my hobbies comes and go. Currently, I enjoy music production, entrepreneurship, photography, and food. In the past, I've
+                            enjoyed dancing, singing, piano, cooking, and fashion!
+                        </p>
 
                     </div>
 
+                    <div className="techIconContainer">
+                        <img className="techIcon" src={ai}></img>
+                        <img className="techIcon" src={fullstack}></img>
+                        <img className="techIcon" src={webdev}></img>
+                        <img className="techIcon" src={quant}></img>
+                    </div>
 
                 </div>
 

@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://localhost:3000/ -->
+<html lang="en" class="gr__localhost"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <link rel="shortcut icon" href="http://localhost:3000/favicon.ico">
+  <link href="./React App_files/css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#000000">
+  <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+  <link rel="manifest" href="http://localhost:3000/manifest.json">
+  <!--
+      Notice the use of  in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+  <title>React App</title>
+<style type="text/css">body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+</style><style type="text/css"></style><style type="text/css">.App{
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.bannerImage {
+    background-image: url(/static/media/California.5d982a1f.jpg);
+    position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.bannerOverlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    border: solid;
+    position: relative;
+    border-width: 0 0 3px 0;
+    border-color: #ffd4d4;
+}
+
+.bannerName {
+    color: white;
+    position: relative;
+    text-align: center;
+    margin: 0;
+    top: 35%;
+    font-family: "Raleway";
+    font-size: 80px; 
+}
+
+.bannerNameHello {
+    position: relative;
+    text-align: center;
+    margin: 0;
+    top: 35%;
+    font-family: "Raleway";
+    font-size: 80px; 
+    color: #ffd4d4
+}
+
+
+
+
+
+@media screen and (max-width: 992px) {
+    .bannerName {
+        font-size: 60px; 
+    }
+
+    .bannerNameHello {
+        font-size: 60px; 
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+    .bannerName {
+        font-size: 50px; 
+    }
+
+    .bannerNameHello {
+        font-size: 50px; 
+    }
+}</style><style type="text/css">.topnav{
+    padding-top: 2%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 999;
+    border: solid;
+    border-width: 0 0 1px 0;
+    border-color: #ffd4d4;
+}
+
+.topnav ul{
+    margin:0;
+    padding: 0;
+}
+
+.topnav li{
+    margin: 10px 20px;
+}
+
+.navlinks{
+    display: inline-flex;
+}
+
+.navlinks a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color .3s;
+}
+
+.navlinks a:hover{
+    color: salmon;
+    transition: color .3s;
+}
+
+.navlinks a::after{
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #fff;
+    transition: width .3s;
+}
+.navlinks a:hover::after{
+    width: 100%;
+    transition: width .3s;
+}
+
+
+@media screen and (max-width: 992px) {
+    .topnav li{
+        margin: 10px 10px;
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+    .navlinks{
+        font-size: 14px;
+    }
+}</style><style type="text/css">.about {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+.aboutTitle{
+    font-family: Raleway;
+    font-size: 40px; 
+    font-weight: 800;
+    text-align: center;
+    width: 30%;
+    margin: auto;
+    margin-top: 80px;
+    color: #3d3d3d
+}
+
+.aboutTitle::after{
+    background-color: #3d3d3d; 
+    margin-top: 10px;
+    bottom: 0;
+    content: '';
+    display: block;
+    height: 4px;
+    left: 50%;
+    position: relative;
+    transform: translate(-50%,0);
+    width: 20%;
+}
+
+.aboutContent {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.aboutText {
+    width: 50%;
+    float: right;
+    margin: 3% 5% 5% 5%;
+    font-family: Raleway;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.aboutText p {
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+
+.aboutText li{
+    font-weight: 600;
+    line-height: 2;
+    font-size: 18px;
+}
+
+.pfp {
+    width: 20%;
+    height: auto;
+    border-radius: 50%;
+    margin: 5% 5% 5% 10%;
+    float: left;
+}
+
+
+.imageContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.techIconContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+.techIcon {
+    width: 10%;
+    height: auto;
+    margin: 5% 5% 5% 5%;
+    display: block;
+    align-self: center;
+}
+
+
+@media screen and (max-width: 992px) {
+
+    
+}
+
+@media screen and (max-width: 600px) {
+    .techIconContainer{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .techIcon{
+        width:10%;
+    }
+
+    .aboutContent{
+        display: flex;
+        flex-direction: column;
+    }
+    .pfp{
+        align-self: center;
+        margin: 5% 5% 5% 5%;
+        width: 40%
+    }
+
+    .aboutText{
+        align-self: center;
+        margin: 5% 5% 5% 5%;
+    }
+
+}</style><script charset="utf-8" src="./React App_files/main.33019241b03d8ca562ef.hot-update.js"></script><script charset="utf-8" src="./React App_files/main.f18856f5cbad52c11dc6.hot-update.js"></script><script charset="utf-8" src="./React App_files/main.60acaade42376f8fba63.hot-update.js"></script><script charset="utf-8" src="./React App_files/main.7873048b4309b427dfc4.hot-update.js"></script><script charset="utf-8" src="./React App_files/main.b241932e2aef5e939059.hot-update.js"></script><script charset="utf-8" src="./React App_files/main.ed9b050da07c340e0233.hot-update.js"></script><script charset="utf-8" src="./React App_files/main.8c14235854b73c246171.hot-update.js"></script><script charset="utf-8" src="./React App_files/main.ed8a13c6a7b4252eaef2.hot-update.js"></script><script charset="utf-8" src="./React App_files/main.70e2f683062eeaf76aec.hot-update.js"></script><script charset="utf-8" src="./React App_files/main.f25bdf39176385878f5e.hot-update.js"></script><script charset="utf-8" src="./React App_files/main.b84f34fa7b5a57430a66.hot-update.js"></script><script charset="utf-8" src="./React App_files/main.b18acd4a831fbcb9caca.hot-update.js"></script></head>
+
+<body data-gr-c-s-loaded="true">
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"><div class="App"><header class="bannerImage"><div class="topnav" style="transform: translate(0px, 0px); transition: transform 0.2s linear 0s;"><ul><li class="navlinks"><a href="http://localhost:3000/#home">Home</a></li><li class="navlinks"><a href="http://localhost:3000/#news">About</a></li><li class="navlinks"><a href="http://localhost:3000/#contact">Projects</a></li><li class="navlinks"><a href="http://localhost:3000/#about">Contact</a></li></ul></div><div class="bannerOverlay"><h1 class="bannerNameHello">Hello! I'm </h1><h1 class="bannerName">Yuxuan Yao</h1></div><div class="about"><h1 class="aboutTitle">ABOUT ME</h1><div class="aboutContent"><div class="imageContainer"><img class="pfp" src="./React App_files/pfp.dc05d4fa.png"><div class="techIconContainer"><img class="techIcon" src="./React App_files/ai.7d718d5a.png"><img class="techIcon" src="./React App_files/fullstack.8d0000ef.png"></div><div class="techIconContainer"><img class="techIcon" src="data:image/png;base64,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"><img class="techIcon" src="./React App_files/quant.35b885d5.png"></div></div><div class="aboutText"><p>Hi there! My name is Yuxuan, and here is an introduction about myself!  </p><p>I was born in Nanjing, China. When I was 8 years old, I moved to Vancouver, Canada to complete my elementary and secondary education. In 2017, I decided to move again to the biggest Canadian city, pursue a higher education at the University of Toronto</p><ul><li>Going into my 3rd year at the University of Toronto St. George Campus</li><li>Major in Computer Engineering, specializing in the Software stream</li><li>Minor in Artificial Intelligence</li></ul><p>Computer Engineering provided me with knowledge for both software and hardware. Aside from my academics, I also have passion and interest for other areas which I hope to explore and dive deeper into such as: </p><ul><li>Machine Learning/Deep Learning</li><li>Fullstack Development</li><li>Software Development</li><li>Quantitative Analysis</li></ul></div></div></div></header></div></div>
+  <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+
+<script src="./React App_files/bundle.js"></script><script src="./React App_files/1.chunk.js"></script><script src="./React App_files/main.chunk.js"></script><script src="./React App_files/main.e326852271ac8e6b3ba8.hot-update.js"></script>
+
+
+
+</body></html>

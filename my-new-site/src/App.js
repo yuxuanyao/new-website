@@ -11,11 +11,8 @@ function App() {
   return (
     <div className="App">
       <header className="bannerImage">
-
         <Topnav />
-
         <Banner />
-
         <About />
 
 
