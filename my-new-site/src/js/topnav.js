@@ -40,10 +40,12 @@ class Topnav extends React.Component {
                 transition: 'transform 0.2s linear',
             }}>
                 <ul>
-                    <li className="navlinks"><a href="#home">Home</a></li>
-                    <li className="navlinks"><a href="#news">About</a></li>
-                    <li className="navlinks"><a href="#contact">Projects</a></li>
-                    <li className="navlinks"><a href="#about">Contact</a></li>
+                    <li className="navlinks"><a href="#">Home</a></li>
+                    <li className="navlinks"><a href="#">About</a></li>
+                    <li className="navlinks"><a href="#">Projects</a></li>
+                    <li className="navlinks"><a href="#">Skills</a></li>
+                    <li className="navlinks"><a href="#">Extra-curriculars</a></li>
+                    <li className="navlinks"><a href="#">Contact</a></li>
                 </ul>
             </div>
         );
