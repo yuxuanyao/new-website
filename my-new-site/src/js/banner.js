@@ -22,10 +22,10 @@ class Banner extends React.Component {
 
 
         if (currentScrollY > lastScrollY) {
-            if (this.state.opacity >= 0.85) {
-                this.setState({ opacity: 0.85 });
+            if (this.state.opacity >= 0.95) {
+                this.setState({ opacity: 0.95 });
             } else {
-                this.setState({ opacity: this.state.opacity + 0.02 });
+                this.setState({ opacity: this.state.opacity + 0.01 });
             }
         }
         else {
