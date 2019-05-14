@@ -1,4 +1,5 @@
 import '../css/about.css';
+import '../css/education.css';
 import React from 'react';
 import pfp from '../images/pfp.png';
 import ai from '../images/ai.png';
@@ -23,15 +24,8 @@ class About extends React.Component {
                         <p>Hi there! My name is Yuxuan, and here is an introduction about myself!  </p>
 
                         <p>I was born in Nanjing, China. When I was 8 years old, I moved to Vancouver, Canada to complete my elementary and secondary education.
-                            In 2017, I decided to move again to the biggest Canadian city, pursue a higher education at the University of Toronto
+                            In 2017, I decided to move again to the biggest Canadian city, Toronto, pursue a higher education in Computer Engineering
                         </p>
-                        <ul>
-                            <li>Going into my 3rd year at the University of Toronto St. George Campus</li>
-                            <li>Major in Computer Engineering, specializing in the Software stream</li>
-                            <li>Minor in Artificial Intelligence</li>
-                        </ul>
-
-
 
                         <p>Computer Engineering provided me with knowledge for both software and hardware.
                             Aside from my academics, I also have passion and interest for other areas which I hope to explore and dive deeper into such as: </p>
@@ -59,9 +53,9 @@ class About extends React.Component {
                         <img className="techIcon" src={quant}></img>
                     </div>
 
-                </div>
+                </div >
 
-            </div>
+            </div >
         );
     }
 }

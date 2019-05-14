@@ -14,13 +14,14 @@ class Education extends React.Component {
 
                 <div className="educationText">
 
-                    <div className="univeristy">University of Toronto St. George</div>
-                    <p>3rd year</p>
-                    <p>Major: Computer Engineering</p>
-                    <p>Specialization: Software</p>
-                    <p>Minor: Artificial Intelligence</p>
-                    <p>Minor: Engineering Business</p>
-
+                    <div className="univeristy">University of Toronto, St. George</div>
+                    <p>3rd year • Sep 2019</p>
+                    <i>
+                        <p>Computer Engineering Major</p>
+                        <p>Software Specialization</p>
+                        <p>Artificial Intelligence Minor</p>
+                        <p>Engineering Business Minor</p>
+                    </i>
 
                 </div>
                 {/* </div> */}
