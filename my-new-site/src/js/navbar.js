@@ -4,7 +4,6 @@ import React from 'react';
 class Topnav extends React.Component {
 
     state = {
-        auth: false,
         slide: 0,  // How much should the Navbar slide up or down
         lastScrollY: 0,  // Keep track of current position in state
     };

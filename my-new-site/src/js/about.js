@@ -44,9 +44,9 @@ class About extends React.Component {
                         </ul>
 
                         <p>During my spare time, I really enjoy attending hackathons as it not only allows me to learn a LOT, but it also provides me with an excuse to travel!
-                            I also really like to think of creative to help the community using technology through building personal projects.
+                            I also really like to think of creative to help the community using technology through building personal projects, which can be found below.
                         </p>
-                        <p>On the non-technical side, my hobbies comes and go. Currently, I enjoy music production, entrepreneurship, photography, and food. In the past, I've
+                        <p>My non-technical hobbies comes and go. Currently, I enjoy music production, entrepreneurship, photography, and food. In the past, I've
                             enjoyed dancing, singing, piano, cooking, and fashion!
                         </p>
 
