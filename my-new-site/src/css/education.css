@@ -5,7 +5,7 @@
     background-color: rgba(255, 255, 255, 0.15);
 }
 
-.aboutTitle{
+.educationTitle{
     font-family: Raleway;
     font-size: 40px; 
     font-weight: 800;
@@ -16,11 +16,11 @@
     color: #3d3d3d
 }
 
-.aboutTitle::after{
-    background-color: salmon; 
+.educationTitle::after{
+    background-color:salmon; 
     margin-top: 10px;
-    bottom: 0;
     content: '';
+    bottom: 0;
     display: block;
     height: 4px;
     left: 50%;
@@ -29,67 +29,52 @@
     width: 20%;
 }
 
-.aboutContent {
-    display: inline-block;
-}
 
-.aboutText {
+.educationText {
     width: 50%;
-    float: right;
-    margin: 3% 5% 5% 5%;
+    margin: auto;
+    margin-top: 2%;
     font-family: Raleway;
     font-size: 22px;
     font-weight: 500;
+    text-align: center;
 }
 
-.aboutText p {
+.university {
+    margin: auto;
+    margin-top: 3%;
+}
+
+.educationText p {
     line-height: 1.5;
     font-size: 18px;
 }
 
 
-.aboutText li{
+.educationText li{
     font-weight: 600;
     line-height: 2;
     font-size: 18px;
-}
-
-.pfp {
-    width: 20%;
-    height: auto;
-    border-radius: 50%;
-    margin: 5% 5% 5% 11%;
-    align-self: center;
-}
-
-.techIconContainer{
-    position: relative  ;
-}
-
-
-.techIcon{
-    width: 5%;
-    margin: 2% 2% 2% 10%;
-    align-self: center;
+    list-style: none;
 }
 
 @media screen and (max-width: 1200px) {
-    .aboutText p{
+    .educationText p{
         font-size: 15px;
         line-height: 1.5;
     }
-    .aboutText li{
+    .educationText li{
         font-size: 15px;
         line-height: 1.5;
     }
 }
 
 @media screen and (max-width: 992px) {
-    .aboutText p{
+    .educationText p{
         font-size: 18px;
         line-height: 1.5;
     }
-    .aboutText li{
+    .educationText li{
         font-size: 18px;
         line-height: 2;
     }
@@ -100,21 +85,12 @@
         flex-direction: row;
     }
 
-    .techIcon{
-        width:10%;
-    }
-
-    .aboutContent{
+    .educationText{
         display: flex;
         flex-direction: column;
     }
-    .pfp{
-        align-self: center;
-        margin: 5% 5% 5% 5%;
-        width: 40%
-    }
 
-    .aboutText{
+    .educationText{
         align-self: center;
         width: 65%;
         margin: 5% 5% 5% 5%;

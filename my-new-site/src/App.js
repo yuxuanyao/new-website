@@ -4,7 +4,7 @@ import Banner from './js/banner.js'
 import Topnav from './js/navbar.js'
 import About from './js/about.js'
 import HorizontalLine from './js/line.js'
-
+import Education from './js/education.js'
 
 
 
@@ -15,6 +15,8 @@ function App() {
         <Topnav />
         <Banner />
         <About />
+        <HorizontalLine />
+        <Education />
         <HorizontalLine />
 
 
