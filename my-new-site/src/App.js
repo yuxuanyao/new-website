@@ -5,6 +5,7 @@ import Topnav from './js/navbar.js'
 import About from './js/about.js'
 import HorizontalLine from './js/line.js'
 import Education from './js/education.js'
+import Extracurricular from './js/extracurricular.js'
 
 
 
@@ -18,7 +19,7 @@ function App() {
         <HorizontalLine />
         <Education />
         <HorizontalLine />
-
+        <Extracurricular />
 
       </header>
     </div>
