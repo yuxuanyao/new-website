@@ -7,7 +7,7 @@ const horizontalLineStyle = {
     backgroundColor: '#e3e3e3',
     margin: 'auto',
     marginTop: '2%',
-    marginBottom: '5%',
+    marginBottom: '0px',
 }
 
 class HorizontalLine extends React.Component {

@@ -1,4 +1,4 @@
-import '../css/extracurricular.css';
+import '../css/activity.css';
 import React from 'react';
 import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
@@ -28,7 +28,15 @@ class Activity extends React.Component {
     render() {
         return (
             <div className="activity">
-                <Button variant="primary" onClick={this.handleShow}>Launch demo modal</Button>
+
+                <div className="activityBlock" variant="primary" onClick={this.handleShow}>
+
+                    <div className="activityTitle">Activity</div>
+
+
+                </div>
+
+
 
                 <Modal show={this.state.show} onHide={this.handleClose}>
                     <Modal.Header closeButton>

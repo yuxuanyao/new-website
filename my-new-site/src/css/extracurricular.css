@@ -1,3 +1,5 @@
+
+
 .extraTitle{
     font-family: Raleway;
     font-size: 40px; 
@@ -5,8 +7,9 @@
     text-align: center;
     width: 60%;
     margin: auto;
-    margin-top: 80px;
-    color: #3d3d3d
+    margin-top: 0px;
+    padding-top: 40px;
+    color: #3d3d3d;
 }
 
 .extraTitle::after{
@@ -20,4 +23,12 @@
     position: relative;
     transform: translate(-50%,0);
     width: 20%;
+    margin-bottom: 30px;
 }
+
+.activityGrid{
+    display: flex;                     
+    flex-wrap: wrap;                     
+    justify-content: space-around;
+}
+

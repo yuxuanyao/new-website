@@ -10,9 +10,36 @@ class Extracurricular extends React.Component {
 
     render() {
         return (
-            <div className="extracurriculars">
+            <div className="extra">
                 <div className="extraTitle">LEADERSHIP</div>
-                <Activity />
+
+                <div className="activityGrid">
+                    <Activity />
+                    <Activity />
+                    <Activity />
+                    <Activity />
+                    <Activity />
+                    <Activity />
+                </div>
+
+
+
+
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+
             </div>
 
         );

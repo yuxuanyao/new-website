@@ -1,0 +1,16 @@
+.activity{
+    flex: 0 0 33.1%;                      
+    height: 50px;
+    margin-bottom: 1px;
+    background-color: #999;
+}
+
+.activityBlock{
+
+}
+
+.activityTitle{
+    top: 50%;
+    text-align: center;
+    padding: 12px;
+}
