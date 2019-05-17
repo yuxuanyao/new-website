@@ -14,12 +14,12 @@ class Extracurricular extends React.Component {
                 <div className="extraTitle">LEADERSHIP</div>
 
                 <div className="activityGrid">
-                    <Activity />
-                    <Activity />
-                    <Activity />
-                    <Activity />
-                    <Activity />
-                    <Activity />
+                    <Activity title="UTRA" />
+                    <Activity title="IEEE" />
+                    <Activity title="UtraHacks" />
+                    <Activity title="ILead" />
+                    <Activity title="F!rosh" />
+                    <Activity title="Robokids" />
                 </div>
 
 

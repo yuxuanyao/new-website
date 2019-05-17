@@ -31,7 +31,7 @@ class Activity extends React.Component {
 
                 <div className="activityBlock" variant="primary" onClick={this.handleShow}>
 
-                    <div className="activityTitle">Activity</div>
+                    <div className="activityTitle">{this.props.title}</div>
 
 
                 </div>
