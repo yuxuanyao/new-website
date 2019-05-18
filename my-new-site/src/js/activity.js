@@ -25,20 +25,18 @@ class Activity extends React.Component {
         this.setState({ show: true });
     }
 
+
     render() {
         return (
             <div className="activity">
 
                 <div className="activityBlock" variant="primary" onClick={this.handleShow}>
-
                     <div className="activityTitle">{this.props.title}</div>
-
-
                 </div>
 
 
 
-                <Modal show={this.state.show} onHide={this.handleClose}>
+                <Modal show={this.state.show} onHide={this.handleClose} style={{ padding: 0 }}>
                     <Modal.Header closeButton>
                         <Modal.Title>Modal heading</Modal.Title>
                     </Modal.Header>

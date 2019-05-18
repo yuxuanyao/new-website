@@ -1,4 +1,7 @@
-
+.extra {
+    position: absolute;
+    width:100%;
+}
 
 .extraTitle{
     font-family: Raleway;
@@ -27,8 +30,11 @@
 }
 
 .activityGrid{
+    width:60%;
     display: flex;                     
     flex-wrap: wrap;                     
     justify-content: space-around;
+    margin: auto;
+    position: relative;
 }
 

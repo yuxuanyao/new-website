@@ -15,13 +15,15 @@ function App() {
       <header className="bannerImage">
         <Topnav />
         <Banner />
-        <About />
-        <HorizontalLine />
-        <Education />
-        <HorizontalLine />
-        <Extracurricular />
-
       </header>
+
+      <About />
+      <HorizontalLine />
+      <Education />
+      <HorizontalLine />
+      <Extracurricular />
+
+
     </div>
   );
 }
