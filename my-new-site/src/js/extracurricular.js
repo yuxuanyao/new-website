@@ -4,6 +4,12 @@ import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
 import Activity from './activity.js'
 
+import frosh from '../images/extracurriculars/frosh.jpg'
+import utrahacks from '../images/extracurriculars/utraHacks.png'
+import utra from '../images/extracurriculars/utra.jpg'
+import ieee from '../images/extracurriculars/ieee.png'
+import robokids from '../images/extracurriculars/robokids.jpg'
+import ilead from '../images/extracurriculars/ilead.jpg'
 
 
 class Extracurricular extends React.Component {
@@ -14,12 +20,12 @@ class Extracurricular extends React.Component {
                 <div className="extraTitle">LEADERSHIP</div>
 
                 <div className="activityGrid">
-                    <Activity title="UTRA" />
-                    <Activity title="IEEE" />
-                    <Activity title="UtraHacks" />
-                    <Activity title="ILead" />
-                    <Activity title="F!rosh" />
-                    <Activity title="Robokids" />
+                    <Activity title="UTRA" bg={utra} />
+                    <Activity title="IEEE" bg={ieee} />
+                    <Activity title="UtraHacks" bg={utrahacks} />
+                    <Activity title="ILead" bg={ilead} />
+                    <Activity title="F!rosh" bg={frosh} />
+                    <Activity title="Robokids" bg={robokids} />
                 </div>
 
 

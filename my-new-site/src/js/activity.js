@@ -30,7 +30,7 @@ class Activity extends React.Component {
         return (
             <div className="activity">
 
-                <div className="activityBlock" variant="primary" onClick={this.handleShow}>
+                <div className="activityBlock" variant="primary" onClick={this.handleShow} style={{ backgroundImage: `url(${this.props.bg})` }}>
                     <div className="activityTitle">{this.props.title}</div>
                 </div>
 
