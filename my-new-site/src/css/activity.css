@@ -2,22 +2,56 @@
     flex: 0 0 33.33%;                     
     background-color: #999;
     position: relative;
+    z-index: 500;
 }
+
+
 
 .activityBlock{
     height: 200px;
     background-size: cover;
     background-position: center;
+    width: 100%;
 }
 
 .activityTitle{
-    color:white;
-    top: 50%;
-    text-align: center;
-    padding: 12px;
+  color: white;
+  font-size: 30px;
+  font-family: 'Raleway';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: none;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 100;
 }
 
 body.modal-open{
     overflow: scroll !important;
     padding-right: 0 !important;
+}
+
+.activityOverlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .75s ease;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.activity:hover .activityOverlay {
+    opacity: 1;
+}
+
+.activity:hover .activityTitle {
+    display: inline-block;
+    opacity: 1;
 }

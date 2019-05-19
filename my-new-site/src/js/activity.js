@@ -28,11 +28,13 @@ class Activity extends React.Component {
 
     render() {
         return (
-            <div className="activity">
+            <div className="activity" >
 
                 <div className="activityBlock" variant="primary" onClick={this.handleShow} style={{ backgroundImage: `url(${this.props.bg})` }}>
                     <div className="activityTitle">{this.props.title}</div>
                 </div>
+
+                <div class="activityOverlay"></div>
 
 
 
