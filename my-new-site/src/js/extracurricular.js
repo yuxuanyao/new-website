@@ -12,11 +12,17 @@ import robokids from '../images/extracurriculars/robokids.jpg'
 import ilead from '../images/extracurriculars/ilead.jpg'
 
 
+import Particles from 'react-particles-js';
+import ParticlesConfig from './particlesjs-config.json'
+
+
 class Extracurricular extends React.Component {
 
     render() {
         return (
             <div className="extra">
+                <Particles params={ParticlesConfig} className="particle" />
+
                 <div className="extraTitle">LEADERSHIP</div>
 
                 <div className="activityGrid">
@@ -30,22 +36,6 @@ class Extracurricular extends React.Component {
                 </div>
 
 
-
-
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
 
             </div>
 
