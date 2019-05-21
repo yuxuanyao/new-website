@@ -1,6 +1,6 @@
 import '../css/education.css';
 import React from 'react';
-
+import uoft from '../images/uoftlogo.png';
 
 
 
@@ -14,7 +14,9 @@ class Education extends React.Component {
 
                 <div className="educationText">
 
-                    <div className="univeristy">University of Toronto, St. George</div>
+                    <img className="uoftlogo" src={uoft}></img>
+                    <div className="univeristy">St. George Campus</div>
+
                     <p>3rd year • Sep 2019</p>
                     <i>
                         <p>Computer Engineering Major</p>
