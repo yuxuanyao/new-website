@@ -21,11 +21,11 @@ class Extracurricular extends React.Component {
 
                 <div className="activityGrid">
                     <Activity title="ILead" bg={ilead} />
-                    <Activity title="F!rosh" bg={frosh} />
+                    <Activity title="IEEE" bg={ieee} />
                     <Activity title="UtraHacks" bg={utrahacks} />
 
                     <Activity title="UTRA" bg={utra} />
-                    <Activity title="IEEE" bg={ieee} />
+                    <Activity title="F!rosh" bg={frosh} />
                     <Activity title="Robokids" bg={robokids} />
                 </div>
 
