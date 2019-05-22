@@ -50,17 +50,34 @@
 
 
 
-@media screen and (max-width: 1200px) {
-
+@media screen and (max-width: 1300px) {
+    .activityGrid {
+        width: 80%;
+    }
 }
 
 @media screen and (max-width: 992px) {
     
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     .extraTitle{
         font-size: 30px;
     }
-
+    .activityGrid {
+        width: 50%;
+    }
 }
+
+@media screen and (max-width: 700px) {
+    .activityGrid {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .activityGrid {
+        width: 80%;
+    }
+}
+

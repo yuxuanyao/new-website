@@ -24,7 +24,7 @@ class About extends React.Component {
                         <p>Hi there! My name is Yuxuan, and here is an introduction about myself!  </p>
 
                         <p>I was born in Nanjing, China. When I was 8 years old, I moved to Vancouver, Canada to complete my elementary and secondary education.
-                            In 2017, I decided to move again to the biggest Canadian city, Toronto, pursue a higher education in Computer Engineering
+                            In 2017, I decided to move again to the largest Canadian city, Toronto, pursue a higher education in Computer Engineering
                         </p>
 
                         <p>Computer Engineering provided me with knowledge for both software and hardware.

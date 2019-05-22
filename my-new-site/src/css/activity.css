@@ -55,3 +55,20 @@ body.modal-open{
     display: inline-block;
     opacity: 1;
 }
+
+
+
+@media screen and (max-width: 992px) {
+    .activity{
+        flex: 0 0 50%;   
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .extraTitle{
+        font-size: 30px;
+    }
+    .activity{
+        flex: 0 0 100%;   
+    }
+}

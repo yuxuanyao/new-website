@@ -18,28 +18,68 @@ import ParticlesConfig from './particlesjs-config.json'
 
 class Extracurricular extends React.Component {
 
+    state = {
+        display: 0,
+    }
+
+
+
+
+    updateDimensions = () => {
+        if (window.innerWidth < 992 && window.innerWidth > 700) {
+            this.setState({ display: 1 })
+        } else {
+            this.setState({ display: 0 })
+        }
+    }
+
+    componentDidMount() {
+        window.addEventListener("resize", this.updateDimensions);
+    }
+
+    componentWillUnmount() {
+        window.removeEventListener("resize", this.updateDimensions);
+    }
+
     render() {
-        return (
-            <div className="extra">
-                <Particles params={ParticlesConfig} className="particle" />
+        if (this.state.display == 1) {
+            return (
+                <div className="extra">
+                    <Particles params={ParticlesConfig} className="particle" />
 
-                <div className="extraTitle">LEADERSHIP</div>
+                    <div className="extraTitle">LEADERSHIP</div>
 
-                <div className="activityGrid">
-                    <Activity title="ILead" bg={ilead} />
-                    <Activity title="IEEE" bg={ieee} />
-                    <Activity title="UtraHacks" bg={utrahacks} />
+                    <div className="activityGrid">
+                        <Activity title="ILead" bg={ilead} />
+                        <Activity title="IEEE" bg={ieee} />
+                        <Activity title="UTRA" bg={utra} />
 
-                    <Activity title="UTRA" bg={utra} />
-                    <Activity title="F!rosh" bg={frosh} />
-                    <Activity title="Robokids" bg={robokids} />
+                        <Activity title="UtraHacks" bg={utrahacks} />
+                        <Activity title="F!rosh" bg={frosh} />
+                        <Activity title="Robokids" bg={robokids} />
+                    </div>
                 </div>
+            );
+        } else {
+            return (
+                <div className="extra">
+                    <Particles params={ParticlesConfig} className="particle" />
 
+                    <div className="extraTitle">LEADERSHIP</div>
 
+                    <div className="activityGrid">
+                        <Activity title="ILead" bg={ilead} />
+                        <Activity title="IEEE" bg={ieee} />
+                        <Activity title="UtraHacks" bg={utrahacks} />
 
-            </div>
+                        <Activity title="UTRA" bg={utra} />
+                        <Activity title="F!rosh" bg={frosh} />
+                        <Activity title="Robokids" bg={robokids} />
+                    </div>
+                </div>
+            );
+        }
 
-        );
 
     }
 
