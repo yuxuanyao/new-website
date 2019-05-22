@@ -1,16 +1,13 @@
 import '../css/education.css';
 import React from 'react';
-import uoft from '../images/uoftlogo.png';
 
 
 
-class Education extends React.Component {
+class Skills extends React.Component {
     render() {
         return (
-            <div class="education">
+            <div class="skills">
                 <h1 className="educationTitle">EDUCATION</h1>
-
-                {/* <div className="educationContents"> */}
 
                 <div className="educationText">
 
@@ -19,7 +16,7 @@ class Education extends React.Component {
 
                     <p>3rd year • Sep 2019</p>
                     <i>
-                        <p><b>BASc in Computer Engineering</b></p>
+                        <p>BASc in Computer Engineering</p>
                         <p>Software Specialization</p>
                         <p>Artificial Intelligence Minor</p>
                         <p>Engineering Business Minor</p>

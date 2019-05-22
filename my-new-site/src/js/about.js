@@ -1,7 +1,7 @@
 import '../css/about.css';
 import '../css/education.css';
 import React from 'react';
-import pfp from '../images/pfp.png';
+import pfp from '../images/pfp.jpg';
 import ai from '../images/ai.png';
 import fullstack from '../images/fullstack.png';
 import webdev from '../images/webdev.png'

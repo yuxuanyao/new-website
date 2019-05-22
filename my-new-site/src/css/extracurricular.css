@@ -48,3 +48,19 @@
     margin-bottom: 100px;
 }
 
+
+
+@media screen and (max-width: 1200px) {
+
+}
+
+@media screen and (max-width: 992px) {
+    
+}
+
+@media screen and (max-width: 600px) {
+    .extraTitle{
+        font-size: 30px;
+    }
+
+}
