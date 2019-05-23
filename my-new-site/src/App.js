@@ -6,7 +6,7 @@ import About from './js/about.js'
 import HorizontalLine from './js/line.js'
 import Education from './js/education.js'
 import Extracurricular from './js/extracurricular.js'
-
+import Skills from './js/skills.js'
 
 
 function App() {
@@ -18,11 +18,12 @@ function App() {
       </header>
 
       <About />
-      <HorizontalLine />
+
+
+      <Extracurricular />
       <Education />
       <HorizontalLine />
-      <Extracurricular />
-
+      <Skills />
 
     </div>
   );

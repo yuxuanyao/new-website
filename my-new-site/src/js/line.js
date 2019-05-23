@@ -8,6 +8,7 @@ const horizontalLineStyle = {
     margin: 'auto',
     marginTop: '2%',
     marginBottom: '0px',
+    position: 'relative'
 }
 
 class HorizontalLine extends React.Component {

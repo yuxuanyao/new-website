@@ -1,0 +1,51 @@
+.skills{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.15);
+    margin-bottom: 80px;
+}
+
+.skillsTitle{
+    font-family: Raleway;
+    font-size: 40px; 
+    font-weight: 800;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: #3d3d3d;
+}
+
+.skillsTitle::after{
+    background-color:salmon; 
+    margin-top: 10px;
+    content: '';
+    bottom: 0;
+    display: block;
+    height: 4px;
+    left: 50%;
+    position: relative;
+    transform: translate(-50%,0);
+    width: 20%;
+}
+
+
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  text-align: center;
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
