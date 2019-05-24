@@ -45,6 +45,19 @@
     text-align: center;
     color: #00204e;
 }
+.educationContainer {
+    width: 80%;
+    margin: auto;
+    font-family: 'Centaur';
+    font-size: 28px;
+    font-weight: 500;
+    text-align: center;
+    color: #00204e;
+
+    content: "";
+    display: table;
+    clear: both;
+}
 
 .university {
     margin: auto;
@@ -52,7 +65,7 @@
     
 }
 
-.educationText p {
+.educationContainer p {
     line-height: 1.5;
     font-size: 20px;
     color: black;
@@ -60,40 +73,86 @@
 }
 
 
-.educationText li{
+.educationContainer li{
     font-weight: 600;
     line-height: 2;
     font-size: 18px;
     list-style: none;
+    
 }
 
+
+.educationContainer button{
+    background:#fff;
+    color:#3d3d3d;
+    border:none;
+    position:relative;
+    height:auto;
+    font-size:22px;
+    padding:5px 2em;
+    cursor:pointer;
+    transition:800ms ease all;
+    outline:none;
+    margin: 2px;
+
+    width: 50%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #cac9c9;
+}
+.educationContainer button:hover{
+    background:#fff;
+    color:#3d3d3d;
+}
+.educationContainer button:before,.educationContainer button:after{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:2px;
+    width:0;
+    background: #3d3d3d;
+    transition:400ms ease all;
+}
+.educationContainer button:after{
+    right:inherit;
+    top:inherit;
+    left:0;
+    bottom:0;
+}
+.educationContainer button:hover:before,.educationContainer button:hover:after{
+    width:100%;
+    transition:800ms ease all;
+}
+
+
 @media screen and (max-width: 1200px) {
-    .educationText p{
+    .educationContainer p{
         font-size: 15px;
         line-height: 1.5;
     }
-    .educationText li{
+    .educationContainer li{
         font-size: 15px;
         line-height: 1.5;
     }
 }
 
 @media screen and (max-width: 992px) {
-    .educationText p{
+    .educationContainer p{
         font-size: 18px;
         line-height: 1.5;
     }
-    .educationText li{
+    .educationContainer li{
         font-size: 18px;
         line-height: 2;
     }
 
-    .educationText{
+    .educationContainer{
         display: flex;
         flex-direction: column;
     }
 
-    .educationText{
+    .educationContainer{
         align-self: center;
         width: 65%;
         margin: auto;

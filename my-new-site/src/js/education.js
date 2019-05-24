@@ -17,16 +17,21 @@ class Education extends React.Component {
                     <img className="uoftlogo" src={uoft}></img>
                     <div className="univeristy">St. George Campus</div>
 
-                    <p>3rd year • Sep 2019</p>
-                    <i>
-                        <p><b>BASc in Computer Engineering</b></p>
-                        <p>Software Specialization</p>
-                        <p>Artificial Intelligence Minor</p>
-                        <p>Engineering Business Minor</p>
-                    </i>
+                    <p style={{ fontSize: '22px', color: '#000' }}>3rd year • Sep 2019</p>
 
                 </div>
-                {/* </div> */}
+
+                <div className="educationContainer">
+                    <p><b>BASc in Computer Engineering</b></p>
+                    <p>Software Specialization</p>
+                    <p>Artificial Intelligence Minor</p>
+                    <p>Engineering Business Minor</p>
+
+                    <button>Software Courses</button>
+                    <button>Hardware Courses</button>
+                    <button>Electrical Courses</button>
+                    <button>Math Courses</button>
+                </div>
 
             </div>
         );
