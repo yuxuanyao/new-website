@@ -25,7 +25,7 @@ function App() {
 
       <Work />
 
-      <HorizontalLine />
+      {/* <HorizontalLine /> */}
 
       <Extracurricular />
 
