@@ -26,13 +26,6 @@ class Education extends React.Component {
                     <p>Software Specialization</p>
                     <p>Artificial Intelligence Minor</p>
                     <p>Engineering Business Minor</p>
-
-                    <h1 style={{ fontWeight: 600 }}>Courses</h1>
-
-                    <a>Software Courses</a>
-                    <a>Hardware Courses</a>
-                    <a>Electrical Courses</a>
-                    <a>Math Courses</a>
                 </div>
 
             </div>
