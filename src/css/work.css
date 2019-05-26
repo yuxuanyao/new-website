@@ -1,0 +1,30 @@
+
+.workTitle{
+    font-family: Raleway;
+    font-size: 40px; 
+    font-weight: 800;
+    text-align: center;
+    width: 30%;
+    margin: auto;
+    margin-top: 40px;
+    color: #3d3d3d
+}
+
+.workTitle::after{
+    background-color: salmon; 
+    margin-top: 10px;
+    bottom: 0;
+    content: '';
+    display: block;
+    height: 4px;
+    left: 50%;
+    position: relative;
+    transform: translate(-50%,0);
+    width: 20%;
+}
+
+.worklogo{
+    width: 200px;
+    margin-left: 100px;
+}
+

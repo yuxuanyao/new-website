@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/new-website/static/css/main.56ccfc6f.chunk.css",
+    "main.js": "/new-website/static/js/main.55b18729.chunk.js",
+    "main.js.map": "/new-website/static/js/main.55b18729.chunk.js.map",
+    "runtime~main.js": "/new-website/static/js/runtime~main.01d8a192.js",
+    "runtime~main.js.map": "/new-website/static/js/runtime~main.01d8a192.js.map",
+    "static/js/2.1eb27091.chunk.js": "/new-website/static/js/2.1eb27091.chunk.js",
+    "static/js/2.1eb27091.chunk.js.map": "/new-website/static/js/2.1eb27091.chunk.js.map",
+    "index.html": "/new-website/index.html",
+    "precache-manifest.e1111ce2b1fdb54d5ca82f96fc5cef89.js": "/new-website/precache-manifest.e1111ce2b1fdb54d5ca82f96fc5cef89.js",
+    "service-worker.js": "/new-website/service-worker.js",
+    "static/css/main.56ccfc6f.chunk.css.map": "/new-website/static/css/main.56ccfc6f.chunk.css.map",
+    "static/media/banner.css": "/new-website/static/media/California.5d982a1f.jpg",
+    "static/media/ai.png": "/new-website/static/media/ai.7d718d5a.png",
+    "static/media/frosh.jpg": "/new-website/static/media/frosh.c1264e02.jpg",
+    "static/media/fullstack.png": "/new-website/static/media/fullstack.8d0000ef.png",
+    "static/media/huawei.png": "/new-website/static/media/huawei.f4981f93.png",
+    "static/media/ieee.png": "/new-website/static/media/ieee.99d98575.png",
+    "static/media/ilead.jpg": "/new-website/static/media/ilead.9465f64f.jpg",
+    "static/media/pfp.jpg": "/new-website/static/media/pfp.6a536a12.jpg",
+    "static/media/quant.png": "/new-website/static/media/quant.35b885d5.png",
+    "static/media/robokids.jpg": "/new-website/static/media/robokids.a08f0b69.jpg",
+    "static/media/uoftlogo.png": "/new-website/static/media/uoftlogo.66f2de54.png",
+    "static/media/utra.jpg": "/new-website/static/media/utra.98ff29de.jpg",
+    "static/media/utraHacks.png": "/new-website/static/media/utraHacks.b47b281d.png"
+  }
+}

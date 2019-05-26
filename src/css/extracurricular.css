@@ -1,0 +1,83 @@
+.extra {
+    position: relative;
+    width:100%;
+    height: auto;
+    background-color: #101010;
+}
+
+.particle{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.extraTitle{
+    font-family: Raleway;
+    font-size: 40px; 
+    font-weight: 800;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    margin-top: 0px;
+    padding-top: 40px;
+    color: #ffffff;
+}
+
+.extraTitle::after{
+    background-color: salmon; 
+    margin-top: 10px;
+    bottom: 0;
+    content: '';
+    display: block;
+    height: 4px;
+    left: 50%;
+    position: relative;
+    transform: translate(-50%,0);
+    width: 20%;
+    margin-bottom: 30px;
+}
+
+.activityGrid{
+    width:60%;
+    display: flex;                     
+    flex-wrap: wrap;                     
+    justify-content: space-around;
+    margin: auto;
+    position: relative;
+    padding-bottom: 100px;
+}
+
+
+
+@media screen and (max-width: 1300px) {
+    .activityGrid {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    
+}
+
+@media screen and (max-width: 700px) {
+    .extraTitle{
+        font-size: 30px;
+    }
+    .activityGrid {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .activityGrid {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .activityGrid {
+        width: 80%;
+    }
+}
+
