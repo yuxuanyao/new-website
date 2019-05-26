@@ -1,13 +1,14 @@
 import '../css/education.css';
 import React from 'react';
 import uoft from '../images/uoftlogo.png';
+import HorizontalLine from './line.js'
 
 
 
 class Education extends React.Component {
     render() {
         return (
-            <div class="education">
+            <div className="education">
                 <h1 className="educationTitle">EDUCATION</h1>
 
                 {/* <div className="educationContents"> */}
@@ -15,8 +16,7 @@ class Education extends React.Component {
                 <div className="educationText">
 
                     <img className="uoftlogo" src={uoft}></img>
-                    <div className="univeristy">St. George Campus</div>
-
+                    <div className="univeristy" style={{ fontFamily: 'Centaur', color: '#00204e' }}>St. George Campus</div>
                     <p style={{ fontSize: '22px', color: '#000' }}>3rd year • Sep 2019</p>
 
                 </div>
@@ -27,10 +27,12 @@ class Education extends React.Component {
                     <p>Artificial Intelligence Minor</p>
                     <p>Engineering Business Minor</p>
 
-                    <button>Software Courses</button>
-                    <button>Hardware Courses</button>
-                    <button>Electrical Courses</button>
-                    <button>Math Courses</button>
+                    <h1 style={{ fontWeight: 600 }}>Courses</h1>
+
+                    <a>Software Courses</a>
+                    <a>Hardware Courses</a>
+                    <a>Electrical Courses</a>
+                    <a>Math Courses</a>
                 </div>
 
             </div>
