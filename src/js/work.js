@@ -1,7 +1,7 @@
 import '../css/work.css';
 import React from 'react';
 import huawei from '../images/work/huawei.png';
-import roboedu from '../images/work/roboedu200.png';
+import roboedu from '../images/work/roboedu.png';
 
 
 class Work extends React.Component {
