@@ -1,10 +1,9 @@
 .activity{
     flex: 0 0 33.33%;                     
-    background-color: #999;
+    background-color: #fff;
     position: relative;
     z-index: 500;
 }
-
 
 
 .activityBlock{
