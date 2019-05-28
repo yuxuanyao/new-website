@@ -9,6 +9,7 @@ import Extracurricular from './js/extracurricular.js';
 import Skills from './js/skills.js';
 import Courses from './js/courses.js';
 import Work from './js/work.js';
+import Projects from './js/projects.js';
 
 
 function App() {
@@ -21,11 +22,9 @@ function App() {
 
       <About />
 
-      <HorizontalLine />
+      <Projects />
 
       <Work />
-
-      {/* <HorizontalLine /> */}
 
       <Extracurricular />
 

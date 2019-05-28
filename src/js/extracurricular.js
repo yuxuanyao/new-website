@@ -45,7 +45,7 @@ class Extracurricular extends React.Component {
         if (this.state.display == 1) {
             return (
                 <div className="extra">
-                    <Particles params={ParticlesConfig} className="particle" />
+                    {/* <Particles params={ParticlesConfig} className="particle" /> */}
 
                     <div className="extraTitle">LEADERSHIP</div>
 
@@ -63,7 +63,7 @@ class Extracurricular extends React.Component {
         } else {
             return (
                 <div className="extra">
-                    <Particles params={ParticlesConfig} className="particle" />
+                    {/* <Particles params={ParticlesConfig} className="particle" /> */}
 
                     <div className="extraTitle">LEADERSHIP</div>
 
