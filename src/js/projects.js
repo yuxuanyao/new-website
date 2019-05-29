@@ -42,6 +42,7 @@ class Projects extends React.Component {
                     <Activity title="Arduino Bicycle Safety" bg={bike} />
                 </div>
 
+                <div>Commits</div>
 
             </div>
         );
