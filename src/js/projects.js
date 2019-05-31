@@ -25,6 +25,10 @@ import pw1 from '../images/projects/pw1.png';
 import pw2 from '../images/projects/pw2.png';
 import catalog from '../images/projects/catalog.png';
 
+import todo from '../images/projects/todo.png';
+import anime from '../images/projects/anime.png';
+import ttt from '../images/projects/ttt.png';
+
 
 
 class Projects extends React.Component {
@@ -63,17 +67,17 @@ class Projects extends React.Component {
                 </div>
 
                 <div className="projectSubtitle">Web Development</div>
-                <div className="projectGrid" style={{ paddingBottom: '80px' }}>
+                <div className="projectGrid">
                     <Activity title="Personal Website V1" bg={pw1} />
                     <Activity title="Personal Website V2" bg={pw2} />
                     <Activity title="Fullstack Library Catalog" bg={catalog} />
                 </div>
 
-                <div className="projectSubtitle">Other Small Projects</div>
+                <div className="projectSubtitle">Others</div>
                 <div className="projectGrid" style={{ paddingBottom: '80px' }}>
-                    <Activity title="Personal Website V1" bg={pw1} />
-                    <Activity title="Personal Website V2" bg={pw2} />
-                    <Activity title="Fullstack Library Catalog" bg={catalog} />
+                    <Activity title="React Tic-Tac-Toe" bg={ttt} />
+                    <Activity title="To Do List" bg={todo} />
+                    <Activity title="Anime Website" bg={anime} />
                 </div>
 
 
