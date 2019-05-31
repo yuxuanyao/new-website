@@ -76,17 +76,9 @@ class Projects extends React.Component {
                 <div className="projectSubtitle">Others</div>
                 <div className="projectGrid" style={{ paddingBottom: '80px' }}>
                     <Activity title="React Tic-Tac-Toe" bg={ttt} />
-                    <Activity title="To Do List" bg={todo} />
                     <Activity title="Anime Website" bg={anime} />
+                    <Activity title="To Do List" bg={todo} />
                 </div>
-
-
-
-
-
-
-                <div>Commits</div>
-
             </div>
         );
 
