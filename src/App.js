@@ -10,6 +10,7 @@ import Skills from './js/skills.js';
 import Courses from './js/courses.js';
 import Work from './js/work.js';
 import Projects from './js/projects.js';
+import Contact from './js/contact.js'
 
 
 function App() {
@@ -35,6 +36,8 @@ function App() {
       <HorizontalLine />
 
       <Skills />
+
+      <Contact />
 
     </div>
   );
