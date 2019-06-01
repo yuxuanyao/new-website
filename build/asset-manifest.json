@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/new-website/static/css/main.2250db93.chunk.css",
-    "main.js": "/new-website/static/js/main.7d73540b.chunk.js",
-    "main.js.map": "/new-website/static/js/main.7d73540b.chunk.js.map",
+    "main.js": "/new-website/static/js/main.d219fe8b.chunk.js",
+    "main.js.map": "/new-website/static/js/main.d219fe8b.chunk.js.map",
     "runtime~main.js": "/new-website/static/js/runtime~main.01d8a192.js",
     "runtime~main.js.map": "/new-website/static/js/runtime~main.01d8a192.js.map",
-    "static/js/2.2652a284.chunk.js": "/new-website/static/js/2.2652a284.chunk.js",
-    "static/js/2.2652a284.chunk.js.map": "/new-website/static/js/2.2652a284.chunk.js.map",
+    "static/js/2.56e8862d.chunk.js": "/new-website/static/js/2.56e8862d.chunk.js",
+    "static/js/2.56e8862d.chunk.js.map": "/new-website/static/js/2.56e8862d.chunk.js.map",
     "index.html": "/new-website/index.html",
-    "precache-manifest.8bd47f74966ec003ac3f1e24839b7842.js": "/new-website/precache-manifest.8bd47f74966ec003ac3f1e24839b7842.js",
+    "precache-manifest.b84c84a12bcc6d02bf28b08592c4c687.js": "/new-website/precache-manifest.b84c84a12bcc6d02bf28b08592c4c687.js",
     "service-worker.js": "/new-website/service-worker.js",
     "static/css/main.2250db93.chunk.css.map": "/new-website/static/css/main.2250db93.chunk.css.map",
     "static/media/banner.css": "/new-website/static/media/California.5d982a1f.jpg",
@@ -39,7 +39,7 @@
     "static/media/spaceracer.jpeg": "/new-website/static/media/spaceracer.b593cf5f.jpeg",
     "static/media/sumoBot.jpg": "/new-website/static/media/sumoBot.656cf935.jpg",
     "static/media/todo.png": "/new-website/static/media/todo.549b71bb.png",
-    "static/media/ttt.png": "/new-website/static/media/ttt.c80f07bf.png",
+    "static/media/ttt.png": "/new-website/static/media/ttt.03dee2f8.png",
     "static/media/uoftlogo.png": "/new-website/static/media/uoftlogo.66f2de54.png",
     "static/media/utra.jpg": "/new-website/static/media/utra.98ff29de.jpg",
     "static/media/utraHacks.png": "/new-website/static/media/utraHacks.b47b281d.png"
