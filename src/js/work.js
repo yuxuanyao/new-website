@@ -28,7 +28,7 @@ class Work extends React.Component {
                     </div>
                 </div >
 
-                <div className="line"></div>
+                <div className="workline"></div>
 
                 <div className="workContainer">
                     <img className="worklogo" src={roboedu}></img>

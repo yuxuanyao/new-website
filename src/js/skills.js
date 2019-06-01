@@ -1,6 +1,6 @@
 import '../css/skills.css';
 import React from 'react';
-import HorizontalLine from './line.js'
+
 
 
 class Skills extends React.Component {
