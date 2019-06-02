@@ -15,7 +15,6 @@ import ilead from '../images/extracurriculars/ilead.jpg'
 import Particles from 'react-particles-js';
 import ParticlesConfig from './particlesjs-config.json'
 
-
 class Extracurricular extends React.Component {
 
     state = {
@@ -42,6 +41,8 @@ class Extracurricular extends React.Component {
     }
 
     render() {
+        var cImgs = [frosh, frosh]
+
         if (this.state.display == 1) {
             return (
                 <div className="extra">
@@ -50,13 +51,13 @@ class Extracurricular extends React.Component {
                     <div className="extraTitle">LEADERSHIP</div>
 
                     <div className="activityGrid">
-                        <Activity title="ILead" bg={ilead} project="University of Toronto Smoking Ban" />
-                        <Activity title="IEEE" bg={ieee} />
-                        <Activity title="UTRA" bg={utra} />
+                        <Activity title="ILead" bg={ilead} project="University of Toronto Smoking Ban" carouselImg={cImgs} />
+                        <Activity title="IEEE" bg={ieee} project="Marketing Associate" carouselImg={cImgs} />
+                        <Activity title="UTRA" bg={utra} project="Executive Director / Project Manager" carouselImg={cImgs} />
 
-                        <Activity title="UtraHacks" bg={utrahacks} />
-                        <Activity title="F!rosh" bg={frosh} />
-                        <Activity title="Robokids" bg={robokids} />
+                        <Activity title="UtraHacks" bg={utrahacks} project="Webmaster / Sponsorships Director" carouselImg={cImgs} />
+                        <Activity title="F!rosh" bg={frosh} project="Undercover F!rosh" carouselImg={cImgs} />
+                        <Activity title="Robokids" bg={robokids} project="Robotics Instructor" carouselImg={cImgs} />
                     </div>
                 </div>
             );
@@ -68,13 +69,13 @@ class Extracurricular extends React.Component {
                     <div className="extraTitle">LEADERSHIP</div>
 
                     <div className="activityGrid">
-                        <Activity title="ILead" bg={ilead} project="University of Toronto Smoking Ban" />
-                        <Activity title="IEEE" bg={ieee} project="Marketing Associate" />
-                        <Activity title="UtraHacks" bg={utrahacks} project="Executive Director / Project Manager" />
+                        <Activity title="ILead" bg={ilead} project="University of Toronto Smoking Ban" carouselImg={cImgs} />
+                        <Activity title="IEEE" bg={ieee} project="Marketing Associate" carouselImg={cImgs} />
+                        <Activity title="UtraHacks" bg={utrahacks} project="Executive Director / Project Manager" carouselImg={cImgs} />
 
-                        <Activity title="UTRA" bg={utra} project="Webmaster / Sponsorships Director" />
-                        <Activity title="F!rosh" bg={frosh} project="Undercover F!rosh" />
-                        <Activity title="Robokids" bg={robokids} project="Robotics Instructor" />
+                        <Activity title="UTRA" bg={utra} project="Webmaster / Sponsorships Director" carouselImg={cImgs} />
+                        <Activity title="F!rosh" bg={frosh} project="Undercover F!rosh" carouselImg={cImgs} />
+                        <Activity title="Robokids" bg={robokids} project="Robotics Instructor" carouselImg={cImgs} />
                     </div>
                 </div>
             );

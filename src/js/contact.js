@@ -11,11 +11,11 @@ class Contact extends React.Component {
                 <div className="contactTitle">CONTACT ME</div>
                 <div className="email">yuxuan.yao@mail.utoronto.ca</div>
                 <ul class="social-networks diamond to-round spin-icon rise-up">
-                    <li><a href="https://www.linkedin.com/" class="icon-linkedin">LinkedIn</a></li>
-                    <li><a href="https://github.com" class="icon-github">GitHub</a></li>
-                    <li><a href="https://www.facebook.com/" class="icon-facebook">Facebook</a></li>
-                    <li><a href="https://instagram.com" class="icon-instagram">Instagram</a></li>
-                    <li><a href="https://twitter.com/" class="icon-twitter">Twitter</a></li>
+                    <li><a href="https://www.linkedin.com/in/yuxuan-yao-382593161/" class="icon-linkedin">LinkedIn</a></li>
+                    <li><a href="https://github.com/yuxuanyao" class="icon-github">GitHub</a></li>
+                    <li><a href="https://www.facebook.com/yuxuanyyx" class="icon-facebook">Facebook</a></li>
+                    <li><a href="https://www.instagram.com/yu.xuan.yyx/" class="icon-instagram">Instagram</a></li>
+                    <li><a href="https://twitter.com/YuxuanYao4" class="icon-twitter">Twitter</a></li>
                 </ul>
 
                 <div className="copyright">

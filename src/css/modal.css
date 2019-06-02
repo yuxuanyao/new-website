@@ -1,6 +1,11 @@
 .projectTitle{
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 600;
     font-family: 'Raleway';
     text-align: center;
+}
+
+.carousel{
+    margin: auto;
+    width: 70%;
 }

@@ -2,6 +2,9 @@ import '../css/activity.css';
 import '../css/modal.css';
 import React from 'react';
 import Modal from 'react-bootstrap/Modal';
+import Carousel from 'react-bootstrap/Carousel';
+
+import frosh from '../images/extracurriculars/frosh.jpg'
 
 
 
@@ -13,6 +16,8 @@ class Activity extends React.Component {
 
         this.handleShow = this.handleShow.bind(this);
         this.handleClose = this.handleClose.bind(this);
+        this.renderCarousel = this.renderCarousel.bind(this);
+        // this.renderCarouselItems = this.renderCarouselItems.bind(this);
 
         this.state = {
             show: false,
@@ -26,6 +31,86 @@ class Activity extends React.Component {
     handleShow() {
         this.setState({ show: true });
     }
+
+    renderCarousel() {
+        if (this.props.carouselImg.length == 3) {
+            return (
+                <Carousel className="carousel">
+                    <Carousel.Item>
+                        <img
+                            className="d-block w-100"
+                            src={this.props.carouselImg[0]}
+                        />
+                        <Carousel.Caption>
+                            <h3>First slide label</h3>
+                        </Carousel.Caption>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img
+                            className="d-block w-100"
+                            src={this.props.carouselImg[1]}
+                        />
+                        <Carousel.Caption>
+                            <h3>First slide label</h3>
+                        </Carousel.Caption>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img
+                            className="d-block w-100"
+                            src={this.props.carouselImg[2]}
+                        />
+                        <Carousel.Caption>
+                            <h3>First slide label</h3>
+                        </Carousel.Caption>
+                    </Carousel.Item>
+                </Carousel>
+            );
+        } else if (this.props.carouselImg.length == 2) {
+            return (
+                <Carousel className="carousel">
+                    <Carousel.Item>
+                        <img
+                            className="d-block w-100"
+                            src={this.props.carouselImg[0]}
+                        />
+                        <Carousel.Caption>
+                            <h3>First slide label</h3>
+                        </Carousel.Caption>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img
+                            className="d-block w-100"
+                            src={this.props.carouselImg[1]}
+                        />
+                        <Carousel.Caption>
+                            <h3>First slide label</h3>
+                        </Carousel.Caption>
+                    </Carousel.Item>
+                </Carousel>
+            )
+        } else {
+            return (
+                <Carousel className="carousel">
+                    <Carousel.Item>
+                        <img
+                            className="d-block w-100"
+                            src={this.props.carouselImg[0]}
+                        />
+                        <Carousel.Caption>
+                            <h3>First slide label</h3>
+                        </Carousel.Caption>
+                    </Carousel.Item>
+                </Carousel>
+            )
+        }
+
+    }
+
+
+
+
+
+
 
 
     render() {
@@ -42,7 +127,7 @@ class Activity extends React.Component {
 
 
 
-                <Modal show={this.state.show} onHide={this.handleClose} style={{ padding: 0 }}>
+                <Modal show={this.state.show} onHide={this.handleClose} size="lg" style={{ padding: 0 }}>
                     <Modal.Header closeButton>
                         <Modal.Title >{this.props.title}</Modal.Title>
 
@@ -52,6 +137,7 @@ class Activity extends React.Component {
                         <div className="projectTitle">{this.props.project}</div>
 
 
+                        {this.renderCarousel()}
 
 
 
