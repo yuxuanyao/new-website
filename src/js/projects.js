@@ -41,13 +41,13 @@ class Projects extends React.Component {
                 <div className="extraTitle">PROJECTS</div>
                 <div className="projectSubtitle">Hackathons</div>
                 <div className="projectGrid">
-                    <Activity title="UofTHacks VI" bg={uofthacks} />
-                    <Activity title="TreeHacks" bg={treehacks} />
-                    <Activity title="HackPrinceton" bg={hackprinceton} />
+                    <Activity title="UofTHacks VI" bg={uofthacks} project="EtherRide" />
+                    <Activity title="TreeHacks" bg={treehacks} project="Turn Down for What?" />
+                    <Activity title="HackPrinceton" bg={hackprinceton} project="Avacancy" />
                 </div>
                 <div className="projectSubtitle">Course Projects</div>
                 <div className="projectGrid">
-                    <Activity title="Space Racer" bg={spaceracer} />
+                    <Activity title="ARM Space Racer" bg={spaceracer} />
                     <Activity title="Geographic Information System" bg={gis} />
                     <Activity title="FPGA Trumpet" bg={fpgatrumpet} />
                 </div>
@@ -61,7 +61,7 @@ class Projects extends React.Component {
 
                 <div className="projectSubtitle">Extracurriculars</div>
                 <div className="projectGrid">
-                    <Activity title="Telus X IEEE IoT Project" bg={iot} />
+                    <Activity title="Telus X IEEE IoT Project" bg={iot} project="Smart Garbage Can" />
                     <Activity title="Sumo Robotics" bg={sumo} />
                     <Activity title="Arduino Bicycle Safety" bg={bike} />
                 </div>

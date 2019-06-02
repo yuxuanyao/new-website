@@ -3,12 +3,12 @@
 }
 
 .bannerImage {
-    background-image: url('../images/banner/California.jpg');
+    background-image: url('../images/banner/California.png');
     position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     height: 100vh;
     width: 100%;
     background-color: rgba(0, 0, 0, 0);

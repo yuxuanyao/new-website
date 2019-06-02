@@ -1,7 +1,8 @@
 import '../css/activity.css';
+import '../css/modal.css';
 import React from 'react';
 import Modal from 'react-bootstrap/Modal';
-import Button from 'react-bootstrap/Button';
+
 
 
 
@@ -28,11 +29,13 @@ class Activity extends React.Component {
 
 
     render() {
+
         return (
             <div className="activity" >
 
                 <div className="activityBlock" variant="primary" onClick={this.handleShow} style={{ backgroundImage: `url(${this.props.bg})` }}>
                     <div className="activityTitle">{this.props.title}</div>
+
                 </div>
 
                 <div class="activityOverlay"></div>
@@ -41,10 +44,18 @@ class Activity extends React.Component {
 
                 <Modal show={this.state.show} onHide={this.handleClose} style={{ padding: 0 }}>
                     <Modal.Header closeButton>
-                        <Modal.Title>Modal heading</Modal.Title>
+                        <Modal.Title >{this.props.title}</Modal.Title>
+
                     </Modal.Header>
 
-                    <Modal.Body>Woohoo, you're reading this text in a modal!</Modal.Body>
+                    <Modal.Body>
+                        <div className="projectTitle">{this.props.project}</div>
+
+
+
+
+
+                    </Modal.Body>
 
                     <Modal.Footer></Modal.Footer>
 

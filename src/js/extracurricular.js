@@ -50,7 +50,7 @@ class Extracurricular extends React.Component {
                     <div className="extraTitle">LEADERSHIP</div>
 
                     <div className="activityGrid">
-                        <Activity title="ILead" bg={ilead} />
+                        <Activity title="ILead" bg={ilead} project="University of Toronto Smoking Ban" />
                         <Activity title="IEEE" bg={ieee} />
                         <Activity title="UTRA" bg={utra} />
 
@@ -68,13 +68,13 @@ class Extracurricular extends React.Component {
                     <div className="extraTitle">LEADERSHIP</div>
 
                     <div className="activityGrid">
-                        <Activity title="ILead" bg={ilead} />
-                        <Activity title="IEEE" bg={ieee} />
-                        <Activity title="UtraHacks" bg={utrahacks} />
+                        <Activity title="ILead" bg={ilead} project="University of Toronto Smoking Ban" />
+                        <Activity title="IEEE" bg={ieee} project="Marketing Associate" />
+                        <Activity title="UtraHacks" bg={utrahacks} project="Executive Director / Project Manager" />
 
-                        <Activity title="UTRA" bg={utra} />
-                        <Activity title="F!rosh" bg={frosh} />
-                        <Activity title="Robokids" bg={robokids} />
+                        <Activity title="UTRA" bg={utra} project="Webmaster / Sponsorships Director" />
+                        <Activity title="F!rosh" bg={frosh} project="Undercover F!rosh" />
+                        <Activity title="Robokids" bg={robokids} project="Robotics Instructor" />
                     </div>
                 </div>
             );
