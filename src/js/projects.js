@@ -102,15 +102,63 @@ class Projects extends React.Component {
                     <li>Initialized on-chip memory for pre-recorded audio and images to be displayed on the monitor through VGA.</li>
                     <li>Processed the Microphone input through the use of an averaging algorithm by counting the number of times the audio input waveform's amplitude is above a threshold value. This is done for multiple threshold values and the highest one is used for the air flow to determine which trumpet note is played.</li>
                 </ul>
-
             </div>
 
+        var pokemonText =
+            <div>
+                <p>My first encounter with data science! This was mainly a data visualization and analysis project where I took the data of over 800 pokemon from a dataset on Kaggle. This dataset contained their moves and other statistics for people to analyze them. </p>
+                <p>Back then, Pokemon Go was still on my mind, so I decided to analyze the data and see what Pokemon I should actually catch. </p>
+                <p>In the end, I was able to graph out the distribution of Pokemon Index and their stats, find which Pokemon have the highest attack, special attack, defense, special defense, HP, etc. </p>
+                <p>It turns out that most of the OP pokemons are legendary Pokemons…</p>
+            </div>
 
+        var ganText =
+            <div>
+                <p>Generative Adversarial Network trained using the FMNIST dataset to generate a 10 by 10 array of clothing images that are 28 px by 28 px. </p>
+                <p>This project was my first encounter with generative networks and was walked through by Toronto AI in a workshop at the University of Toronto.</p>
+                <p>The project was built using TensorFlow eager execution and Keras. Both the generator and the discriminator were built using the convolutional networks provided by TensorFlow. </p>
+            </div>
 
+        var creditText =
+            <div>
+                <p>Implemented anomaly detection algorithms on a Credit Card Fraud dataset from Kaggle. This was a practice for me to get started with basic machine learning algorithms. Some of the algorithms I used were k-nearest neighbors and isolated forest. </p>
+                <p>I was also able to analyze the outcome of my training and identify the incompetency of the data. I had achieved a classifier with very high accuracy, however, this was mainly due to the lack of “Fraud” data in both the training and validation set. The result was that the overall accuracy was very good, yet it does not detect Fraud data very well. </p>
+            </div>
 
+        var iotText =
+            <div>
+                <p>Self-sorting garbage can, isn’t that cool? This was a project done in the Telus x IEEE hackathon at the University of Toronto. The goal of this project was to create something that utilizes Node Red and the mBed system along with some particle IoT devices. </p>
+                <p>We wanted to aim for sustainability, so we decided to build a prototype of a self-sorting garbage can. We used a web cam and adobe ActionScript to take pictures of what's inside the garbage can, we also trained a convolutional neural network to recognize pepsi bottles and others for the sake of prototyping. </p>
+                <p>In the end, we were honored with a special mention in the competition and we were happy with the results.</p>
+            </div>
 
+        var sumoText =
+            <div>
+                <p>This is a project completed for the Sumo competition hosted by the University of Toronto's Robotics Association.</p>
+                <p>The project utilized the following technologies:</p>
+                <ul>
+                    <li>Arduino UNO</li>
+                    <li>Line sensor</li>
+                    <li>Infrared sensor</li>
+                    <li>Motors</li>
+                    <li>Microcontroller</li>
+                    <li>Sheet metal</li >
+                    <li>PCB</li >
+                    <li>AutoCAD</li>
+                </ul>
+                <p>Implementations</p>
+                <ul>
+                    <li>Search algorithm to search for the enemy robot</li>
+                    <li>Arduino functions to interface data from microcontroller pins and program the motors to move.</li>
+                    <li>Arduino functions to get data from the different sensors (line sensor, infrared sensor)</li>
+                </ul>
+            </div>
 
-
+        var bikeText =
+            <div>
+                <p>Do you know how some advanced and modern cars have systems that warn you when another object is near your car? We wanted to do that for bikes. </p>
+                <p>Advised by Professor Steve Mann at the University of Toronto, we were able to complete an Arduino program to calculate the speed of approaching the object and sends a message on the user’s mobile device through an Arduino Bluetooth module. With this, our team has only learned about Arduino circuits, but also Bluetooth communication and Arduino software development!</p>
+            </div>
 
 
 
@@ -134,16 +182,16 @@ class Projects extends React.Component {
 
                 <div className="projectSubtitle">Machine Learning</div>
                 <div className="projectGrid">
-                    <Activity title="Pokemon Data Analysis" bg={pokemon} carouselImg={cImgs} />
-                    <Activity title="Generative Adversarial Networks" bg={gan} carouselImg={cImgs} />
-                    <Activity title="Credit Card Fraud Detection" bg={credit} carouselImg={cImgs} />
+                    <Activity title="Pokemon Data Analysis" bg={pokemon} carouselImg={cImgs} text={pokemonText} />
+                    <Activity title="Generative Adversarial Networks" bg={gan} carouselImg={cImgs} text={ganText} />
+                    <Activity title="Credit Card Fraud Detection" bg={credit} carouselImg={cImgs} text={creditText} />
                 </div>
 
                 <div className="projectSubtitle">Extracurriculars</div>
                 <div className="projectGrid">
-                    <Activity title="Telus X IEEE IoT Project" bg={iot} project="Smart Garbage Can" carouselImg={cImgs} />
-                    <Activity title="Sumo Robotics" bg={sumo} carouselImg={cImgs} />
-                    <Activity title="Arduino Bicycle Safety" bg={bike} carouselImg={cImgs} />
+                    <Activity title="Telus X IEEE IoT Project" bg={iot} project="Smart Garbage Can" carouselImg={cImgs} text={iotText} />
+                    <Activity title="Sumo Robotics" bg={sumo} carouselImg={cImgs} text={sumoText} />
+                    <Activity title="Arduino Bicycle Safety" bg={bike} carouselImg={cImgs} text={bikeText} />
                 </div>
 
                 <div className="projectSubtitle">Web Development</div>
