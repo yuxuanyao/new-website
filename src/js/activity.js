@@ -136,7 +136,7 @@ class Activity extends React.Component {
                     <Modal.Body>
                         <div className="projectTitle">{this.props.project}</div>
 
-
+                        {this.props.text}
                         {this.renderCarousel()}
 
 

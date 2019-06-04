@@ -75,7 +75,7 @@ class Extracurricular extends React.Component {
 
                         <Activity title="UTRA" bg={utra} project="Webmaster / Sponsorships Director" carouselImg={cImgs} />
                         <Activity title="F!rosh" bg={frosh} project="Undercover F!rosh" carouselImg={cImgs} />
-                        <Activity title="Robokids" bg={robokids} project="Robotics Instructor" carouselImg={cImgs} />
+                        <Activity title="Robokids" bg={robokids} project="Robotics Instructor" carouselImg={cImgs} text={<div><p>hello</p> <p>hello</p></div>} />
                     </div>
                 </div>
             );
