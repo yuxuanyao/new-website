@@ -160,7 +160,47 @@ class Projects extends React.Component {
                 <p>Advised by Professor Steve Mann at the University of Toronto, we were able to complete an Arduino program to calculate the speed of approaching the object and sends a message on the user’s mobile device through an Arduino Bluetooth module. With this, our team has only learned about Arduino circuits, but also Bluetooth communication and Arduino software development!</p>
             </div>
 
+        var pw1Text =
+            <div>
+                <p>This was the first website that I made for myself to show case my experiences. I wanted to demonstrate everything that I’ve accomplished in an online portfolio, so I decided to utilize chronologically ordered events on my website to simulate a timeline. </p>
+                <p>I used React.js in this project and it was hosted with Heroku. I utilized React’s specialty such as state, props, mounted components and more to create a more interactive website with parallax scrolling, sliding navbar, dynamic image opacity which ultimately resulted in a unique website!</p>
+            </div>
 
+        var pw2Text =
+            <div>
+                <p>This website that you are on right now! This website was again built in React.js, but uses a more structured code style and the files are more modular and organized! This time, the website is actually hosted on Github because I did not want to pay for Heroku anymore… (Heroku is really slow if you don’t pay)</p>
+                <p>I followed a more modern tech style this time around and I think it turned out great! Feel free to play around with the animated features :)</p>
+            </div>
+
+        var catalogText =
+            <div>
+                <p>Fullstack library catalogue built with Django and written in Python.</p>
+                <p>This application model a real library catalogue. Users can be classified into library admins and library members, and can log in through the Django admin page. I used the SQLite as the database to store information and books and users. I also added some front-end to create a modern log-in system supported by the Django backend. </p>
+                <p>This project was unfortunately paused due to the lack of real-life usage.</p>
+            </div>
+
+        var tttText =
+            <div>
+                <p>I followed the Intro to React tutorial on the official React website to create this Tic Tac Toe game. I have made some modifications to this so it looks better :) </p>
+                <ul>
+                    <li>Responsiveness (enlarged game board on full screen desktop)</li>
+                    <li>Tie Game (the original tutorial had "next move" displayed when neither players won</li>
+                    <li>Color (I changed the color of the X's and O's to make it look more like the original game)</li>
+                </ul>
+            </div>
+
+        var animeText =
+            <div>
+                <p>This was my first ever personal project! This is a very basic HTML and CSS project used to showcase my top 10 favorite anime. I utilized Bootstrap to create a somewhat responsive layout. </p>
+                <p>This is a very basic static page to practice my web design skills and it’s also my first encounter with programming! </p>
+            </div>
+
+        var todoText =
+            <div>
+                <p>My first step into hackathons, at HackNYU.</p>
+                <p>Back in my freshman year of university, I did not know anything about programming other than basic HTML/CSS syntax and extremely basic C code. Furthermore, at HackNYU I was unfortunately abandoned by the team in which I formed at the beginning of the hackathon</p>
+                <p>In the end, I decided to create a to-do list with sentiment analysis. But because I was a one-man team, I was not able to do that and only completed the front-end part of the application. This is another practice website that I made to practice my web technologies</p>
+            </div>
 
         return (
             <div className="extra">
@@ -196,16 +236,17 @@ class Projects extends React.Component {
 
                 <div className="projectSubtitle">Web Development</div>
                 <div className="projectGrid">
-                    <Activity title="Personal Website V1" bg={pw1} carouselImg={cImgs} />
-                    <Activity title="Personal Website V2" bg={pw2} carouselImg={cImgs} />
-                    <Activity title="Fullstack Library Catalog" bg={catalog} carouselImg={cImgs} />
+                    <Activity title="Personal Website V1" bg={pw1} carouselImg={cImgs} text={pw1Text} />
+                    <Activity title="Personal Website V2" bg={pw2} carouselImg={cImgs} text={pw2Text} />
+                    <Activity title="Fullstack Library Catalog" bg={catalog} carouselImg={cImgs} text={catalogText} />
                 </div>
 
                 <div className="projectSubtitle">Others</div>
                 <div className="projectGrid" style={{ paddingBottom: '80px' }}>
-                    <Activity title="React Tic-Tac-Toe" bg={ttt} carouselImg={cImgs} />
-                    <Activity title="Anime Website" bg={anime} carouselImg={cImgs} />
-                    <Activity title="To Do List" bg={todo} carouselImg={cImgs} />
+                    <Activity title="React Tic-Tac-Toe" bg={ttt} carouselImg={cImgs} text={tttText} />
+                    <Activity title="Anime Website" bg={anime} carouselImg={cImgs} text={animeText} />
+                    <Activity title="To Do List" bg={todo} carouselImg={cImgs} text={todoText} />
+
                 </div>
             </div>
         );
