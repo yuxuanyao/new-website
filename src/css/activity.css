@@ -59,10 +59,18 @@ body.modal-open{
     margin: 0 20px;
 }
 
+.projectDescription{
+    width: 75%;
+    margin: auto;
+}
 
 @media screen and (max-width: 992px) {
     .activity{
         flex: 0 0 50%;   
+    }
+
+    .projectDescription{
+        width: 80%
     }
 }
 
@@ -72,5 +80,9 @@ body.modal-open{
     }
     .activity{
         flex: 0 0 100%;   
+    }
+
+    .projectDescription{
+        width: 90%;
     }
 }

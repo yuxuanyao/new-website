@@ -31,6 +31,10 @@ import ttt from '../images/projects/ttt.png';
 
 
 
+// Project images
+import uofthacks_p2 from '../images/projectContent/uofthacks_p1.png'
+import uofthacks_p1 from '../images/projectContent/uofthacks_p2.png'
+
 
 
 
@@ -41,6 +45,8 @@ class Projects extends React.Component {
     render() {
 
         var cImgs = [anime, anime]
+
+        var uofthacks_p = [uofthacks_p1, uofthacks_p2]
 
         var uofthacksText =
             <div>
@@ -202,6 +208,8 @@ class Projects extends React.Component {
                 <p>In the end, I decided to create a to-do list with sentiment analysis. But because I was a one-man team, I was not able to do that and only completed the front-end part of the application. This is another practice website that I made to practice my web technologies</p>
             </div>
 
+        /*-----------------------------------------------------------------------------------------------------------------------------------------*/
+
         return (
             <div className="extra">
                 <Particles params={ParticlesConfig} className="particle" />
@@ -209,7 +217,7 @@ class Projects extends React.Component {
                 <div className="extraTitle">PROJECTS</div>
                 <div className="projectSubtitle">Hackathons</div>
                 <div className="projectGrid">
-                    <Activity title="UofTHacks VI" bg={uofthacks} project="EtherRide" carouselImg={cImgs} text={uofthacksText} />
+                    <Activity title="UofTHacks VI" bg={uofthacks} project="EtherRide" carouselImg={uofthacks_p} text={uofthacksText} />
                     <Activity title="TreeHacks" bg={treehacks} project="Turn Down for What?" carouselImg={cImgs} text={treehacksText} />
                     <Activity title="HackPrinceton" bg={hackprinceton} project="Avacancy" carouselImg={cImgs} text={hackprincetonText} />
                 </div>

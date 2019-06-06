@@ -41,27 +41,18 @@ class Activity extends React.Component {
                             className="d-block w-100"
                             src={this.props.carouselImg[0]}
                         />
-                        <Carousel.Caption>
-                            <h3>First slide label</h3>
-                        </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
                         <img
                             className="d-block w-100"
                             src={this.props.carouselImg[1]}
                         />
-                        <Carousel.Caption>
-                            <h3>First slide label</h3>
-                        </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
                         <img
                             className="d-block w-100"
                             src={this.props.carouselImg[2]}
                         />
-                        <Carousel.Caption>
-                            <h3>First slide label</h3>
-                        </Carousel.Caption>
                     </Carousel.Item>
                 </Carousel>
             );
@@ -73,18 +64,12 @@ class Activity extends React.Component {
                             className="d-block w-100"
                             src={this.props.carouselImg[0]}
                         />
-                        <Carousel.Caption>
-                            <h3>First slide label</h3>
-                        </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
                         <img
                             className="d-block w-100"
                             src={this.props.carouselImg[1]}
                         />
-                        <Carousel.Caption>
-                            <h3>First slide label</h3>
-                        </Carousel.Caption>
                     </Carousel.Item>
                 </Carousel>
             )
@@ -96,9 +81,6 @@ class Activity extends React.Component {
                             className="d-block w-100"
                             src={this.props.carouselImg[0]}
                         />
-                        <Carousel.Caption>
-                            <h3>First slide label</h3>
-                        </Carousel.Caption>
                     </Carousel.Item>
                 </Carousel>
             )
@@ -125,8 +107,6 @@ class Activity extends React.Component {
 
                 <div class="activityOverlay"></div>
 
-
-
                 <Modal show={this.state.show} onHide={this.handleClose} size="lg" style={{ padding: 0 }}>
                     <Modal.Header closeButton>
                         <Modal.Title >{this.props.title}</Modal.Title>
@@ -136,7 +116,8 @@ class Activity extends React.Component {
                     <Modal.Body>
                         <div className="projectTitle">{this.props.project}</div>
 
-                        {this.props.text}
+                        <div className="projectDescription">{this.props.text}</div>
+
                         {this.renderCarousel()}
 
 
