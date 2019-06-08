@@ -35,7 +35,41 @@ import ttt from '../images/projects/ttt.png';
 import uofthacks_p2 from '../images/projectContent/uofthacks_p1.png'
 import uofthacks_p1 from '../images/projectContent/uofthacks_p2.png'
 
+import treehacks_p1 from '../images/projectContent/treehacks_p1.png'
+import treehacks_p2 from '../images/projectContent/treehacks_p2.png'
+import treehacks_p3 from '../images/projectContent/treehacks_p3.png'
 
+import hackprinceton_p1 from '../images/projectContent/hackprinceton_p1.png'
+
+import spaceracer_p1 from '../images/projectContent/spaceracer_p1.png'
+import fpga_p1 from '../images/projectContent/fpga_p1.png'
+
+import sumo_p1 from '../images/projectContent/sumo_p1.png'
+import sumo_p2 from '../images/projectContent/sumo_p2.png'
+import sumo_p3 from '../images/projectContent/sumo_p3.png'
+
+import fmnist_p1 from '../images/projectContent/fmnist_p1.png'
+
+import todo_p1 from '../images/projectContent/todo_p1.png'
+import catalog_p1 from '../images/projectContent/catalog_p1.png'
+import ttt_p1 from '../images/projectContent/ttt_p1.png'
+
+import anime_p1 from '../images/projectContent/anime_p1.png'
+import anime_p3 from '../images/projectContent/anime_p2.png'
+import anime_p2 from '../images/projectContent/anime_p3.png'
+
+import pw1_p1 from '../images/projectContent/pw1_p1.png'
+import pw1_p2 from '../images/projectContent/pw1_p2.png'
+
+import pw2_p1 from '../images/projectContent/pw2_p1.png'
+import pw2_p2 from '../images/projectContent/pw2_p2.png'
+import pw2_p3 from '../images/projectContent/pw2_p3.png'
+
+import credit_p1 from '../images/projectContent/credit_p1.png'
+import credit_p2 from '../images/projectContent/credit_p2.png'
+
+import poke_p1 from '../images/projectContent/poke_p1.png'
+import poke_p2 from '../images/projectContent/poke_p2.png'
 
 
 class Projects extends React.Component {
@@ -47,6 +81,20 @@ class Projects extends React.Component {
         var cImgs = [anime, anime]
 
         var uofthacks_p = [uofthacks_p1, uofthacks_p2]
+        var treehacks_p = [treehacks_p1, treehacks_p2, treehacks_p3]
+        var hackprinceton_p = [hackprinceton_p1]
+        var spaceracer_p = [spaceracer_p1]
+        var fpga_p = [fpga_p1]
+        var sumo_p = [sumo_p1, sumo_p2, sumo_p3]
+        var fmnist_p = [fmnist_p1]
+        var todo_p = [todo_p1]
+        var catalog_p = [catalog_p1]
+        var ttt_p = [ttt_p1]
+        var anime_p = [anime_p1, anime_p2, anime_p3]
+        var pw1_p = [pw1_p1, pw1_p2]
+        var pw2_p = [pw2_p1, pw2_p2, pw2_p3]
+        var credit_p = [credit_p1, credit_p2]
+        var poke_p = [poke_p1, poke_p2]
 
         var uofthacksText =
             <div>
@@ -218,42 +266,42 @@ class Projects extends React.Component {
                 <div className="projectSubtitle">Hackathons</div>
                 <div className="projectGrid">
                     <Activity title="UofTHacks VI" bg={uofthacks} project="EtherRide" carouselImg={uofthacks_p} text={uofthacksText} />
-                    <Activity title="TreeHacks" bg={treehacks} project="Turn Down for What?" carouselImg={cImgs} text={treehacksText} />
-                    <Activity title="HackPrinceton" bg={hackprinceton} project="Avacancy" carouselImg={cImgs} text={hackprincetonText} />
+                    <Activity title="TreeHacks" bg={treehacks} project="Turn Down for What?" carouselImg={treehacks_p} text={treehacksText} />
+                    <Activity title="HackPrinceton" bg={hackprinceton} project="Avacancy" carouselImg={hackprinceton_p} text={hackprincetonText} />
                 </div>
                 <div className="projectSubtitle">Course Projects</div>
                 <div className="projectGrid">
-                    <Activity title="ARM Space Racer" bg={spaceracer} carouselImg={cImgs} text={spaceracerText} />
+                    <Activity title="ARM Space Racer" bg={spaceracer} carouselImg={spaceracer_p} text={spaceracerText} />
                     <Activity title="Geographic Information System" bg={gis} carouselImg={cImgs} text={gisText} />
-                    <Activity title="FPGA Trumpet" bg={fpgatrumpet} carouselImg={cImgs} text={fpgatrumpetText} />
+                    <Activity title="FPGA Trumpet" bg={fpgatrumpet} carouselImg={fpga_p} text={fpgatrumpetText} />
                 </div>
 
                 <div className="projectSubtitle">Machine Learning</div>
                 <div className="projectGrid">
-                    <Activity title="Pokemon Data Analysis" bg={pokemon} carouselImg={cImgs} text={pokemonText} />
-                    <Activity title="Generative Adversarial Networks" bg={gan} carouselImg={cImgs} text={ganText} />
-                    <Activity title="Credit Card Fraud Detection" bg={credit} carouselImg={cImgs} text={creditText} />
+                    <Activity title="Pokemon Data Analysis" bg={pokemon} carouselImg={poke_p} text={pokemonText} />
+                    <Activity title="Generative Adversarial Networks" bg={gan} carouselImg={fmnist_p} text={ganText} />
+                    <Activity title="Credit Card Fraud Detection" bg={credit} carouselImg={credit_p} text={creditText} />
                 </div>
 
                 <div className="projectSubtitle">Extracurriculars</div>
                 <div className="projectGrid">
                     <Activity title="Telus X IEEE IoT Project" bg={iot} project="Smart Garbage Can" carouselImg={cImgs} text={iotText} />
-                    <Activity title="Sumo Robotics" bg={sumo} carouselImg={cImgs} text={sumoText} />
+                    <Activity title="Sumo Robotics" bg={sumo} carouselImg={sumo_p} text={sumoText} />
                     <Activity title="Arduino Bicycle Safety" bg={bike} carouselImg={cImgs} text={bikeText} />
                 </div>
 
                 <div className="projectSubtitle">Web Development</div>
                 <div className="projectGrid">
-                    <Activity title="Personal Website V1" bg={pw1} carouselImg={cImgs} text={pw1Text} />
-                    <Activity title="Personal Website V2" bg={pw2} carouselImg={cImgs} text={pw2Text} />
-                    <Activity title="Fullstack Library Catalog" bg={catalog} carouselImg={cImgs} text={catalogText} />
+                    <Activity title="Personal Website V1" bg={pw1} carouselImg={pw1_p} text={pw1Text} />
+                    <Activity title="Personal Website V2" bg={pw2} carouselImg={pw2_p} text={pw2Text} />
+                    <Activity title="Fullstack Library Catalog" bg={catalog} carouselImg={catalog_p} text={catalogText} />
                 </div>
 
                 <div className="projectSubtitle">Others</div>
                 <div className="projectGrid" style={{ paddingBottom: '80px' }}>
-                    <Activity title="React Tic-Tac-Toe" bg={ttt} carouselImg={cImgs} text={tttText} />
-                    <Activity title="Anime Website" bg={anime} carouselImg={cImgs} text={animeText} />
-                    <Activity title="To Do List" bg={todo} carouselImg={cImgs} text={todoText} />
+                    <Activity title="React Tic-Tac-Toe" bg={ttt} carouselImg={ttt_p} text={tttText} />
+                    <Activity title="Anime Website" bg={anime} carouselImg={anime_p} text={animeText} />
+                    <Activity title="To Do List" bg={todo} carouselImg={todo_p} text={todoText} />
 
                 </div>
             </div>

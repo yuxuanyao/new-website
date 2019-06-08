@@ -9,3 +9,21 @@
     margin: auto;
     width: 70%;
 }
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 20px;
+  width: 20px;
+  outline: black;
+  background-size: 100%, 100%;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+    content: url('../images/icons/right.svg');
+}
+
+.carousel-control-prev-icon:after {
+    content: url('../images/icons/left.svg');
+}
