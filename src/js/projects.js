@@ -71,15 +71,21 @@ import credit_p2 from '../images/projectContent/credit_p2.png'
 import poke_p1 from '../images/projectContent/poke_p1.png'
 import poke_p2 from '../images/projectContent/poke_p2.png'
 
+import iot_p1 from '../images/projectContent/iot_p1.png'
+import iot_p2 from '../images/projectContent/iot_p2.png'
+import iot_p3 from '../images/projectContent/iot_p3.png'
+
+import gis_p1 from '../images/projectContent/gis_p1.png'
+import gis_p2 from '../images/projectContent/gis_p2.png'
+import gis_p3 from '../images/projectContent/gis_p3.png'
+
+import noimg from '../images/projectContent/noimage.svg'
 
 class Projects extends React.Component {
 
 
 
     render() {
-
-        var cImgs = [anime, anime]
-
         var uofthacks_p = [uofthacks_p1, uofthacks_p2]
         var treehacks_p = [treehacks_p1, treehacks_p2, treehacks_p3]
         var hackprinceton_p = [hackprinceton_p1]
@@ -95,6 +101,10 @@ class Projects extends React.Component {
         var pw2_p = [pw2_p1, pw2_p2, pw2_p3]
         var credit_p = [credit_p1, credit_p2]
         var poke_p = [poke_p1, poke_p2]
+        var iot_p = [iot_p1, iot_p2, iot_p3]
+        var gis_p = [gis_p1, gis_p2, gis_p3]
+
+        var noimage_p = [noimg]
 
         var uofthacksText =
             <div>
@@ -272,7 +282,7 @@ class Projects extends React.Component {
                 <div className="projectSubtitle">Course Projects</div>
                 <div className="projectGrid">
                     <Activity title="ARM Space Racer" bg={spaceracer} carouselImg={spaceracer_p} text={spaceracerText} />
-                    <Activity title="Geographic Information System" bg={gis} carouselImg={cImgs} text={gisText} />
+                    <Activity title="Geographic Information System" bg={gis} carouselImg={gis_p} text={gisText} />
                     <Activity title="FPGA Trumpet" bg={fpgatrumpet} carouselImg={fpga_p} text={fpgatrumpetText} />
                 </div>
 
@@ -285,9 +295,9 @@ class Projects extends React.Component {
 
                 <div className="projectSubtitle">Extracurriculars</div>
                 <div className="projectGrid">
-                    <Activity title="Telus X IEEE IoT Project" bg={iot} project="Smart Garbage Can" carouselImg={cImgs} text={iotText} />
+                    <Activity title="Telus X IEEE IoT Project" bg={iot} project="Smart Garbage Can" carouselImg={iot_p} text={iotText} />
                     <Activity title="Sumo Robotics" bg={sumo} carouselImg={sumo_p} text={sumoText} />
-                    <Activity title="Arduino Bicycle Safety" bg={bike} carouselImg={cImgs} text={bikeText} />
+                    <Activity title="Arduino Bicycle Safety" bg={bike} carouselImg={noimage_p} text={bikeText} />
                 </div>
 
                 <div className="projectSubtitle">Web Development</div>
