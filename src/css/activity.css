@@ -64,6 +64,15 @@ body.modal-open{
     margin: auto;
 }
 
+.modal-open .modal{
+    scrollbar-width: none; 
+    -ms-overflow-style: none; 
+}
+
+.modal-open .modal::-webkit-scrollbar { 
+    display: none; 
+}
+
 @media screen and (max-width: 992px) {
     .activity{
         flex: 0 0 50%;   
