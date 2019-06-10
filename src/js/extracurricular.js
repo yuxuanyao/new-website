@@ -101,6 +101,36 @@ class Extracurricular extends React.Component {
                 <p>I Improved students Computer Science fundamentals with Scratch, Robot C, VEX IQ, instructed over 30 students to increase their robotics assessment by 2 levels and educated students on 3D design concepts with Lego Mindstorm, TinkerCAD.</p>
             </div>
 
+        var utrahackslink =
+            <div>
+                <a href="https://www.utra.ca/hackathon/">UtraHacks Official Website</a>
+            </div>
+
+        var utralink =
+            <div>
+                <a href="https://www.utra.ca/">UTRA Official Website</a>
+            </div>
+
+        var ieeelink =
+            <div>
+                <a href="https://ieee.utoronto.ca/">IEEE UofT Official Website</a>
+            </div>
+
+        var ileadlink =
+            <div>
+                <a href="https://ilead.engineering.utoronto.ca/">ILead Official Website</a>
+            </div>
+
+        var robolink =
+            <div>
+                <a href="https://www.robokids.io/">RoboKids Official Website</a>
+            </div>
+
+        var froshlink =
+            <div>
+                <a href="https://www.orientation.skule.ca/">F!rosh Official Website</a>
+            </div>
+
         if (this.state.display == 1) {
             return (
                 <div className="extra">
@@ -109,13 +139,13 @@ class Extracurricular extends React.Component {
                     <div className="extraTitle">LEADERSHIP</div>
 
                     <div className="activityGrid">
-                        <Activity title="ILead" bg={ilead} project="University of Toronto Smoking Ban" carouselImg={ilead_p} text={ileadText} />
-                        <Activity title="IEEE" bg={ieee} project="Marketing Associate" carouselImg={ieee_p} text={ieeeText} />
-                        <Activity title="UTRA" bg={utra} project="Executive Director / Project Manager" carouselImg={utra_p} text={utrahacksText} />
+                        <Activity title="ILead" bg={ilead} project="University of Toronto Smoking Ban" carouselImg={ilead_p} text={ileadText} weblink={ileadlink} />
+                        <Activity title="IEEE" bg={ieee} project="Marketing Associate" carouselImg={ieee_p} text={ieeeText} weblink={ieeelink} />
+                        <Activity title="UTRA" bg={utra} project="Executive Director / Project Manager" carouselImg={utra_p} text={utrahacksText} weblink={utralink} />
 
-                        <Activity title="UtraHacks" bg={utrahacks} project="Webmaster / Sponsorships Director" carouselImg={utrahacks_p} text={utrahacksText} />
-                        <Activity title="F!rosh" bg={frosh} project="Undercover F!rosh" carouselImg={frosh_p} text={froshText} />
-                        <Activity title="Robokids" bg={robokids} project="Robotics Instructor" carouselImg={robo_p} text={roboText} />
+                        <Activity title="UtraHacks" bg={utrahacks} project="Webmaster / Sponsorships Director" carouselImg={utrahacks_p} text={utrahacksText} weblink={utrahackslink} />
+                        <Activity title="F!rosh" bg={frosh} project="Undercover F!rosh" carouselImg={frosh_p} text={froshText} weblink={froshlink} />
+                        <Activity title="Robokids" bg={robokids} project="Robotics Instructor" carouselImg={robo_p} text={roboText} weblink={robolink} />
                     </div>
                 </div>
             );
@@ -127,13 +157,14 @@ class Extracurricular extends React.Component {
                     <div className="extraTitle">LEADERSHIP</div>
 
                     <div className="activityGrid">
-                        <Activity title="ILead" bg={ilead} project="University of Toronto Smoking Ban" carouselImg={ilead_p} text={ileadText} />
-                        <Activity title="IEEE" bg={ieee} project="Marketing Associate" carouselImg={ieee_p} text={ieeeText} />
-                        <Activity title="UtraHacks" bg={utrahacks} project="Executive Director / Project Manager" carouselImg={utrahacks_p} text={utrahacksText} />
+                        <Activity title="ILead" bg={ilead} project="University of Toronto Smoking Ban" carouselImg={ilead_p} text={ileadText} weblink={ileadlink} />
+                        <Activity title="IEEE" bg={ieee} project="Marketing Associate" carouselImg={ieee_p} text={ieeeText} weblink={ieeelink} />
+                        <Activity title="UtraHacks" bg={utrahacks} project="Webmaster / Sponsorships Director" carouselImg={utrahacks_p} text={utrahacksText} weblink={utrahackslink} />
 
-                        <Activity title="UTRA" bg={utra} project="Webmaster / Sponsorships Director" carouselImg={utra_p} text={utraText} />
-                        <Activity title="F!rosh" bg={frosh} project="Undercover F!rosh" carouselImg={frosh_p} text={froshText} />
-                        <Activity title="Robokids" bg={robokids} project="Robotics Instructor" carouselImg={robo_p} text={roboText} />
+
+                        <Activity title="UTRA" bg={utra} project="Executive Director / Project Manager" carouselImg={utra_p} text={utrahacksText} weblink={utralink} />
+                        <Activity title="F!rosh" bg={frosh} project="Undercover F!rosh" carouselImg={frosh_p} text={froshText} weblink={froshlink} />
+                        <Activity title="Robokids" bg={robokids} project="Robotics Instructor" carouselImg={robo_p} text={roboText} weblink={robolink} />
                     </div>
                 </div>
             );

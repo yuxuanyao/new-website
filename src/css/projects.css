@@ -22,6 +22,11 @@
     position: relative;
 }
 
+.projectLink{
+    text-align: center;
+    margin: 15px;
+    font-size: 18px;
+}
 
 @media screen and (max-width: 600px) {
     .projectsTitle{

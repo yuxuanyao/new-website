@@ -267,6 +267,24 @@ class Projects extends React.Component {
             </div>
 
         /*-----------------------------------------------------------------------------------------------------------------------------------------*/
+        var uofthackslink = <div><a href="https://uofthacks.com/" target="_blank" >Official Website</a><br></br><a href="https://devpost.com/software/etherride" target="_blank" >Project Link</a></div>
+        var treehackslink = <div><a href="https://www.treehacks.com/" target="_blank" >Official Website</a><br></br><a href="https://devpost.com/software/bettersleep-backend" target="_blank" >Project Link</a></div>
+        var hackprincetonlink = <div><a href="https://hackprinceton.com/" target="_blank" >Official Website</a><br></br><a href="https://devpost.com/software/parking-detector" target="_blank" >Project Link</a></div>
+        var spacelink = <div><a href="https://github.com/yuxuanyao/SpaceRacer" target="_blank" >Project Link</a></div>
+        var fpgalink = <div><a href="https://github.com/yuxuanyao/FPGA-Trumpet-Practice-Tool" target="_blank" >Project Link</a></div>
+        var pokemonlink = <div><a href="https://github.com/yuxuanyao/Pokemon-Data-Analysis-Visualization" target="_blank" >Project Link</a></div>
+        var ganlink = <div><a href="https://github.com/yuxuanyao/FMNIST/" target="_blank" >Project Link</a></div>
+        // var creditcardlink = <div><a href="">Project Link</a></div>
+        var iotlink = <div><a href="https://devpost.com/software/cansorter" target="_blank" >Project Link</a></div>
+        var sumolink = <div><a href="https://github.com/yuxuanyao/UTRA-Sumo" target="_blank" >Project Link</a></div>
+        var bikelink = <div><a href="https://github.com/yuxuanyao/Speed-Detection-Arduino" target="_blank" >Project Link</a></div>
+        var pw1link = <div><a href="https://afternoon-beach-30256.herokuapp.com/" target="_blank" >Website</a><br></br><a href="https://github.com/yuxuanyao/yuxuanyyx" target="_blank" >Project Link</a></div>
+        var pw2link = <div><a href="https://www.yuxuanyyx.com/" target="_blank" >Website</a><br></br><a href="https://github.com/yuxuanyao/new-website" target="_blank" >Project Link</a></div>
+        var cataloglink = <div><a href="https://nameless-dusk-83405.herokuapp.com/accounts/login/?next=/catalog/" target="_blank" >Website</a><br></br><a href="https://github.com/yuxuanyao/MyLocalLibrary" target="_blank" >Project Link</a></div>
+        var tttlink = <div><a href="https://mysterious-escarpment-20232.herokuapp.com/" target="_blank" >Website</a><br></br><a href="https://github.com/yuxuanyao/ReactTicTacToe" target="_blank" >Project Link</a></div>
+        var animelink = <div><a href="https://yuxuanyao.github.io/Top-TV-Shows/" target="_blank" >Website</a><br></br><a href="https://github.com/yuxuanyao/Top-TV-Shows" target="_blank" >Project Link</a></div>
+        var todolink = <div><a href="https://yuxuanyao.github.io/To-Do-List-Static/" target="_blank" >Website</a><br></br><a href="https://github.com/yuxuanyao/To-Do-List-Static" target="_blank" >Project Link</a></div>
+        /*-----------------------------------------------------------------------------------------------------------------------------------------*/
 
         return (
             <div className="extra">
@@ -275,43 +293,43 @@ class Projects extends React.Component {
                 <div className="extraTitle">PROJECTS</div>
                 <div className="projectSubtitle">Hackathons</div>
                 <div className="projectGrid">
-                    <Activity title="UofTHacks VI" bg={uofthacks} project="EtherRide" carouselImg={uofthacks_p} text={uofthacksText} />
-                    <Activity title="TreeHacks" bg={treehacks} project="Turn Down for What?" carouselImg={treehacks_p} text={treehacksText} />
-                    <Activity title="HackPrinceton" bg={hackprinceton} project="Avacancy" carouselImg={hackprinceton_p} text={hackprincetonText} />
+                    <Activity title="UofTHacks VI" bg={uofthacks} project="EtherRide" carouselImg={uofthacks_p} text={uofthacksText} weblink={uofthackslink} />
+                    <Activity title="TreeHacks" bg={treehacks} project="Turn Down for What?" carouselImg={treehacks_p} text={treehacksText} weblink={treehackslink} />
+                    <Activity title="HackPrinceton" bg={hackprinceton} project="Avacancy" carouselImg={hackprinceton_p} text={hackprincetonText} weblink={hackprincetonlink} />
                 </div>
                 <div className="projectSubtitle">Course Projects</div>
                 <div className="projectGrid">
-                    <Activity title="ARM Space Racer" bg={spaceracer} carouselImg={spaceracer_p} text={spaceracerText} />
+                    <Activity title="ARM Space Racer" bg={spaceracer} carouselImg={spaceracer_p} text={spaceracerText} weblink={spacelink} />
                     <Activity title="Geographic Information System" bg={gis} carouselImg={gis_p} text={gisText} />
-                    <Activity title="FPGA Trumpet" bg={fpgatrumpet} carouselImg={fpga_p} text={fpgatrumpetText} />
+                    <Activity title="FPGA Trumpet" bg={fpgatrumpet} carouselImg={fpga_p} text={fpgatrumpetText} weblink={fpgalink} />
                 </div>
 
                 <div className="projectSubtitle">Machine Learning</div>
                 <div className="projectGrid">
-                    <Activity title="Pokemon Data Analysis" bg={pokemon} carouselImg={poke_p} text={pokemonText} />
-                    <Activity title="Generative Adversarial Networks" bg={gan} carouselImg={fmnist_p} text={ganText} />
+                    <Activity title="Pokemon Data Analysis" bg={pokemon} carouselImg={poke_p} text={pokemonText} weblink={pokemonlink} />
+                    <Activity title="Generative Adversarial Networks" bg={gan} carouselImg={fmnist_p} text={ganText} weblink={ganlink} />
                     <Activity title="Credit Card Fraud Detection" bg={credit} carouselImg={credit_p} text={creditText} />
                 </div>
 
                 <div className="projectSubtitle">Extracurriculars</div>
                 <div className="projectGrid">
-                    <Activity title="Telus X IEEE IoT Project" bg={iot} project="Smart Garbage Can" carouselImg={iot_p} text={iotText} />
-                    <Activity title="Sumo Robotics" bg={sumo} carouselImg={sumo_p} text={sumoText} />
-                    <Activity title="Arduino Bicycle Safety" bg={bike} carouselImg={noimage_p} text={bikeText} />
+                    <Activity title="Telus X IEEE IoT Project" bg={iot} project="Smart Garbage Can" carouselImg={iot_p} text={iotText} weblink={iotlink} />
+                    <Activity title="Sumo Robotics" bg={sumo} carouselImg={sumo_p} text={sumoText} weblink={sumolink} />
+                    <Activity title="Arduino Bicycle Safety" bg={bike} carouselImg={noimage_p} text={bikeText} weblink={bikelink} />
                 </div>
 
                 <div className="projectSubtitle">Web Development</div>
                 <div className="projectGrid">
-                    <Activity title="Personal Website V1" bg={pw1} carouselImg={pw1_p} text={pw1Text} />
-                    <Activity title="Personal Website V2" bg={pw2} carouselImg={pw2_p} text={pw2Text} />
-                    <Activity title="Fullstack Library Catalog" bg={catalog} carouselImg={catalog_p} text={catalogText} />
+                    <Activity title="Personal Website V1" bg={pw1} carouselImg={pw1_p} text={pw1Text} weblink={pw1link} />
+                    <Activity title="Personal Website V2" bg={pw2} carouselImg={pw2_p} text={pw2Text} weblink={pw2link} />
+                    <Activity title="Fullstack Library Catalog" bg={catalog} carouselImg={catalog_p} text={catalogText} weblink={cataloglink} />
                 </div>
 
                 <div className="projectSubtitle">Others</div>
                 <div className="projectGrid" style={{ paddingBottom: '80px' }}>
-                    <Activity title="React Tic-Tac-Toe" bg={ttt} carouselImg={ttt_p} text={tttText} />
-                    <Activity title="Anime Website" bg={anime} carouselImg={anime_p} text={animeText} />
-                    <Activity title="To Do List" bg={todo} carouselImg={todo_p} text={todoText} />
+                    <Activity title="React Tic-Tac-Toe" bg={ttt} carouselImg={ttt_p} text={tttText} weblink={tttlink} />
+                    <Activity title="Anime Website" bg={anime} carouselImg={anime_p} text={animeText} weblink={animelink} />
+                    <Activity title="To Do List" bg={todo} carouselImg={todo_p} text={todoText} weblink={todolink} />
 
                 </div>
             </div>

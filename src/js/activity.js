@@ -118,6 +118,8 @@ class Activity extends React.Component {
 
                         <div className="projectDescription">{this.props.text}</div>
 
+                        <div className="projectLink">{this.props.weblink}</div>
+
                         {this.renderCarousel()}
 
 
