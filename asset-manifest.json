@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.0755e245.chunk.css",
+    "main.css": "/static/css/main.876fe2dc.chunk.css",
     "main.js": "/static/js/main.0ea12677.chunk.js",
     "main.js.map": "/static/js/main.0ea12677.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
@@ -8,9 +8,9 @@
     "static/js/2.cec84c68.chunk.js": "/static/js/2.cec84c68.chunk.js",
     "static/js/2.cec84c68.chunk.js.map": "/static/js/2.cec84c68.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.ab24f770a0e8d3863d178b09a509d308.js": "/precache-manifest.ab24f770a0e8d3863d178b09a509d308.js",
+    "precache-manifest.b96786fb17c18eb8d432fa49f1809707.js": "/precache-manifest.b96786fb17c18eb8d432fa49f1809707.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.0755e245.chunk.css.map": "/static/css/main.0755e245.chunk.css.map",
+    "static/css/main.876fe2dc.chunk.css.map": "/static/css/main.876fe2dc.chunk.css.map",
     "static/media/banner.css": "/static/media/California.70e8d70a.png",
     "static/media/TreeHacks.png": "/static/media/TreeHacks.9f403e2e.png",
     "static/media/UofTHacks.png": "/static/media/UofTHacks.60c36968.png",
