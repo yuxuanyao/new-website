@@ -96,6 +96,56 @@
     margin-top: 50px;
 }
 
+
+
+.resumeBtn {
+    background:#3d3d3d;
+    color:#fff;
+    border:none;
+    position:relative;
+    height:60px;
+    font-size: 22px;
+    text-align: center;
+    cursor:pointer;
+    transition:800ms ease all;
+    outline:none;
+    margin: auto;
+    padding-top: 12px;
+    width: 25%;
+    margin-top: 75px;
+}
+
+.resumeBtn a{
+    color: salmon;
+    text-decoration: none;
+}
+
+.resumeBtn:hover {
+  background:#fff;
+  color:#3d3d3d;
+}
+
+.resumeBtn:before, .resumeBtn:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: #3d3d3d;
+  transition:400ms ease all;
+}
+.resumeBtn:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+.resumeBtn:hover:before, .resumeBtn:hover:after{
+  width:100%;
+  transition:800ms ease all;
+}
+
 @media screen and (max-width: 1200px) {
     .workText{
         margin: auto;

@@ -2,7 +2,8 @@ import '../css/work.css';
 import React from 'react';
 import huawei from '../images/work/huawei.png';
 import roboedu from '../images/work/roboedu.png';
-
+import '../css/courses.css'
+import resume from '../resume.pdf'
 
 class Work extends React.Component {
     render() {
@@ -45,6 +46,11 @@ class Work extends React.Component {
                         </ul>
                     </div>
                 </div >
+
+                <div className="resume">
+                    <div className="resumeBtn"><a href={resume} download="Yuxuan Yao Resume">Resume</a></div>
+                </div>
+
 
 
             </div >
