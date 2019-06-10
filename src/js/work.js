@@ -4,7 +4,7 @@ import huawei from '../images/work/huawei.png';
 import roboedu from '../images/work/roboedu.png';
 import '../css/courses.css'
 import resume from '../resume.pdf'
-
+import HorizontalLine from './line.js'
 class Work extends React.Component {
     render() {
         return (
@@ -46,7 +46,7 @@ class Work extends React.Component {
                         </ul>
                     </div>
                 </div >
-
+                <HorizontalLine />
                 <div className="resume">
                     <div className="resumeBtn"><a href={resume} download="Yuxuan Yao Resume">Resume</a></div>
                 </div>

@@ -99,7 +99,7 @@
 
 
 .resumeBtn {
-    background:#3d3d3d;
+    background:#ffe2e2;
     color:#fff;
     border:none;
     position:relative;
@@ -112,11 +112,11 @@
     margin: auto;
     padding-top: 12px;
     width: 25%;
-    margin-top: 75px;
+    margin-top: 90px;
 }
 
 .resumeBtn a{
-    color: salmon;
+    color: #000;
     text-decoration: none;
 }
 
@@ -132,7 +132,7 @@
   right:0;
   height:2px;
   width:0;
-  background: #3d3d3d;
+  background: salmon;
   transition:400ms ease all;
 }
 .resumeBtn:after{
