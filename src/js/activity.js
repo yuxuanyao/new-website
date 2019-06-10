@@ -17,7 +17,6 @@ class Activity extends React.Component {
         this.handleShow = this.handleShow.bind(this);
         this.handleClose = this.handleClose.bind(this);
         this.renderCarousel = this.renderCarousel.bind(this);
-        // this.renderCarouselItems = this.renderCarouselItems.bind(this);
 
         this.state = {
             show: false,

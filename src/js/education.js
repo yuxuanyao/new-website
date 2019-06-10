@@ -11,8 +11,6 @@ class Education extends React.Component {
             <div className="education">
                 <h1 className="educationTitle">EDUCATION</h1>
 
-                {/* <div className="educationContents"> */}
-
                 <div className="educationText">
 
                     <img className="uoftlogo" src={uoft}></img>
