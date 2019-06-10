@@ -6,7 +6,7 @@ import Carousel from 'react-bootstrap/Carousel';
 
 import frosh from '../images/extracurriculars/frosh.jpg'
 
-
+import winner from '../images/icons/winner.png'
 
 
 
@@ -17,6 +17,7 @@ class Activity extends React.Component {
         this.handleShow = this.handleShow.bind(this);
         this.handleClose = this.handleClose.bind(this);
         this.renderCarousel = this.renderCarousel.bind(this);
+        this.renderWinner = this.renderWinner.bind(this);
 
         this.state = {
             show: false,
@@ -90,7 +91,13 @@ class Activity extends React.Component {
 
 
 
-
+    renderWinner() {
+        if (this.props.winner == true) {
+            return (
+                < img src={winner} className="winner" ></img >
+            )
+        }
+    }
 
 
 
@@ -101,7 +108,7 @@ class Activity extends React.Component {
 
                 <div className="activityBlock" variant="primary" onClick={this.handleShow} style={{ backgroundImage: `url(${this.props.bg})` }}>
                     <div className="activityTitle">{this.props.title}</div>
-
+                    {this.renderWinner()}
                 </div>
 
                 <div class="activityOverlay"></div>

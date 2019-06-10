@@ -293,7 +293,7 @@ class Projects extends React.Component {
                 <div className="extraTitle">PROJECTS</div>
                 <div className="projectSubtitle">Hackathons</div>
                 <div className="projectGrid">
-                    <Activity title="UofTHacks VI" bg={uofthacks} project="EtherRide" carouselImg={uofthacks_p} text={uofthacksText} weblink={uofthackslink} />
+                    <Activity title="UofTHacks VI" bg={uofthacks} project="EtherRide" carouselImg={uofthacks_p} text={uofthacksText} weblink={uofthackslink} winner={true} />
                     <Activity title="TreeHacks" bg={treehacks} project="Turn Down for What?" carouselImg={treehacks_p} text={treehacksText} weblink={treehackslink} />
                     <Activity title="HackPrinceton" bg={hackprinceton} project="Avacancy" carouselImg={hackprinceton_p} text={hackprincetonText} weblink={hackprincetonlink} />
                 </div>
@@ -314,7 +314,7 @@ class Projects extends React.Component {
                 <div className="projectSubtitle">Extracurriculars</div>
                 <div className="projectGrid">
                     <Activity title="Telus X IEEE IoT Project" bg={iot} project="Smart Garbage Can" carouselImg={iot_p} text={iotText} weblink={iotlink} />
-                    <Activity title="Sumo Robotics" bg={sumo} carouselImg={sumo_p} text={sumoText} weblink={sumolink} />
+                    <Activity title="Sumo Robotics" bg={sumo} carouselImg={sumo_p} text={sumoText} weblink={sumolink} winner={true} />
                     <Activity title="Arduino Bicycle Safety" bg={bike} carouselImg={noimage_p} text={bikeText} weblink={bikelink} />
                 </div>
 
