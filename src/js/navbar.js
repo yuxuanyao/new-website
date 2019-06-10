@@ -1,4 +1,5 @@
 import '../css/navbar.css';
+import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
 import React from 'react';
 
 class Topnav extends React.Component {
@@ -39,11 +40,11 @@ class Topnav extends React.Component {
                 transition: 'transform 0.2s linear',
             }}>
                 <ul>
-                    <li className="navlinks"><a href="#">Home</a></li>
-                    <li className="navlinks"><a href="#">About</a></li>
-                    <li className="navlinks"><a href="#">Resume</a></li>
-                    <li className="navlinks"><a href="#">Projects</a></li>
-                    <li className="navlinks"><a href="#">Contact</a></li>
+                    <li className="navlinks"><Link activeClass="active" to={'bannerOverlay'} spy={true} smooth={true} duration={500} ><a className="navText">Home</a></Link></li>
+                    <li className="navlinks"><Link activeClass="active" to={'about'} spy={true} smooth={true} duration={500} ><a className="navText">About</a></Link></li>
+                    <li className="navlinks"><Link activeClass="active" to={'projects'} spy={true} smooth={true} duration={500} ><a className="navText">Projects</a></Link></li>
+                    <li className="navlinks"><Link activeClass="active" to={'work'} spy={true} smooth={true} duration={500} ><a className="navText">Resume</a></Link></li>
+                    <li className="navlinks"><Link activeClass="active" to={'contact'} spy={true} smooth={true} duration={500} ><a className="navText">Contacts</a></Link></li>
                 </ul>
             </div>
         );

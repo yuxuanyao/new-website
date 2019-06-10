@@ -287,7 +287,7 @@ class Projects extends React.Component {
         /*-----------------------------------------------------------------------------------------------------------------------------------------*/
 
         return (
-            <div className="extra">
+            <div className="extra projects">
                 <Particles params={ParticlesConfig} className="particle" />
 
                 <div className="extraTitle">PROJECTS</div>

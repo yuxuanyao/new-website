@@ -22,29 +22,29 @@
     display: inline-flex;
 }
 
-.navlinks a{
-    color: white;
-    text-decoration: none;
-    font-size: 16px;
-    transition: color .3s;
+.navText{
+    color: white !important; 
+    text-decoration: none !important;
+    font-size: 16px !important;
+    transition: color .3s !important;
 }
 
-.navlinks a:hover{
-    color: salmon;
-    transition: color .3s;
+.navText:hover{
+    color: salmon !important;
+    transition: color .3s !important;
 }
 
-.navlinks a::after{
-    content: "";
-    display: block;
-    width: 0;
-    height: 1px;
-    background: #fff;
-    transition: width .3s;
+.navText::after{
+    content: "" !important;
+    display: block !important;
+    width: 0 !important;
+    height: 1px !important;
+    background: #fff !important;
+    transition: width .3s !important;
 }
-.navlinks a:hover::after{
-    width: 100%;
-    transition: width .3s;
+.navText:hover::after{
+    width: 100% !important;
+    transition: width .3s !important;
 }
 
 
