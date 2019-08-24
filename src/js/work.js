@@ -3,7 +3,7 @@ import React from 'react';
 import huawei from '../images/work/huawei.png';
 import roboedu from '../images/work/roboedu.png';
 import '../css/courses.css'
-import resume from '../resume.pdf'
+import resume from '../yyxresume.pdf'
 import HorizontalLine from './line.js'
 class Work extends React.Component {
     render() {
