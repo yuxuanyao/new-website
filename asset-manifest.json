@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.d550ca0f.chunk.css",
-    "main.js": "/static/js/main.514a4bd7.chunk.js",
-    "main.js.map": "/static/js/main.514a4bd7.chunk.js.map",
+    "main.js": "/static/js/main.9fd10204.chunk.js",
+    "main.js.map": "/static/js/main.9fd10204.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
     "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
     "static/js/2.cec84c68.chunk.js": "/static/js/2.cec84c68.chunk.js",
     "static/js/2.cec84c68.chunk.js.map": "/static/js/2.cec84c68.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.9b47c6599ccc1c9114f2d81c83eb659e.js": "/precache-manifest.9b47c6599ccc1c9114f2d81c83eb659e.js",
+    "precache-manifest.d254a08f5f14a3a6808bbda4a518b988.js": "/precache-manifest.d254a08f5f14a3a6808bbda4a518b988.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.d550ca0f.chunk.css.map": "/static/css/main.d550ca0f.chunk.css.map",
     "static/media/banner.css": "/static/media/California.70e8d70a.png",
@@ -61,6 +61,7 @@
     "static/media/pw2_p2.png": "/static/media/pw2_p2.a5b62192.png",
     "static/media/pw2_p3.png": "/static/media/pw2_p3.acfdd3a7.png",
     "static/media/quant.png": "/static/media/quant.35b885d5.png",
+    "static/media/resume.pdf": "/static/media/resume.e56dd762.pdf",
     "static/media/robo_p1.png": "/static/media/robo_p1.19de41bb.png",
     "static/media/roboedu.png": "/static/media/roboedu.645ce68c.png",
     "static/media/robokids.jpg": "/static/media/robokids.a08f0b69.jpg",
@@ -83,7 +84,6 @@
     "static/media/utra.jpg": "/static/media/utra.98ff29de.jpg",
     "static/media/utraHacks.png": "/static/media/utraHacks.b47b281d.png",
     "static/media/utra_p1.png": "/static/media/utra_p1.a447daa0.png",
-    "static/media/utrahacks_p1.png": "/static/media/utrahacks_p1.b47b281d.png",
-    "static/media/yyxresume.pdf": "/static/media/yyxresume.e56dd762.pdf"
+    "static/media/utrahacks_p1.png": "/static/media/utrahacks_p1.b47b281d.png"
   }
 }
