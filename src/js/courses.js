@@ -82,13 +82,22 @@ class Courses extends React.Component {
 
                     <Modal.Body>
                         <div className="courseTitle">APS105 - Computer Fundamentals</div>
-                        <p className="courseDescription">This course is the first taste of programming in C. It overs the basics of computer software and introduces concepts of programming algorithms, style, grammar, and debugging. This course sets students up for upper year programming courses, particularly in ECE, and can be challenging with a steep learning curve for those who don’t have programming experience.</p>
+                        <p className="courseDescription">This course is the first taste of programming in C. It overs the basics of computer software and introduces concepts of programming algorithms, style, grammar, and debugging. This course sets students up for upper year programming courses, particularly in ECE.</p>
 
                         <div className="courseTitle">ECE244 - Programming Fundamentals</div>
-                        <p className="courseDescription">This second year programming course looks at Object Oriented Programming using C++. Some new concepts covered are compilation, classes and objects, inheritance, graphs, and complexity algorithms. These concepts are fairly important to understand as they are fundamental in many modern programming languages and will be used in ECE297! Lectures can be boring if you are a more experienced programmer but still attend as they teach many concepts. Exams involve writing lots of small programs so it’s important to know the material and come up with solutions quickly.</p>
+                        <p className="courseDescription">This second year programming course looks at Object Oriented Programming using C++. Some new concepts covered are compilation, classes and objects, inheritance, graphs, and complexity algorithms. These concepts are fairly important to understand as they are fundamental in many modern programming languages. </p>
 
                         <div className="courseTitle">ECE297 - Communication and Design</div>
-                        <p className="courseDescription">ECE297 is a 2nd year design project in C++ where you will be working in teams of 3 to develop an application, typically a GIS (“Google Maps Project”), basically from scratch. This course combines communication skills with programming knowledge where 50% of your mark will come from written assignments and presentations, hence cannot be neglected! This course can take up A LOT of time in second semester so it also requires very good time management, especially to maintain grades in other courses. Make sure your team is composed of good programmers, good presenters, good writers, and, most importantly, good people.</p>
+                        <p className="courseDescription">ECE297 is a 2nd year design project in C++ where you will be working in teams of 3 to develop an application, typically a GIS (“Google Maps Project”), from scratch. This course combines communication skills with programming knowledge where 50% of your mark will come from written assignments and presentations. This course also requires very good time management. Make sure your team is composed of good programmers, good presenters, good writers, and, most importantly, good people.</p>
+
+                        <div className="courseTitle">ECE344 - Operating Systems</div>
+                        <p className="courseDescription"></p>
+
+                        <div className="courseTitle">ECE345 - Algorithms and Data Structures</div>
+                        <p className="courseDescription"></p>
+
+
+
                     </Modal.Body>
 
                     <Modal.Footer></Modal.Footer>

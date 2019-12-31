@@ -1,7 +1,9 @@
 import '../css/work.css';
 import React from 'react';
+import microsoft from '../images/work/microsoft.png';
+import google from '../images/work/google.png';
 import huawei from '../images/work/huawei.png';
-import roboedu from '../images/work/roboedu.png';
+import roboedu from '../images/work/roboedu2.png';
 import '../css/courses.css'
 import resume from '../resume.pdf'
 import HorizontalLine from './line.js'
@@ -11,6 +13,39 @@ class Work extends React.Component {
             <div className="work">
 
                 <div className="workTitle">WORK EXPERIENCE</div>
+                <br></br>
+                <div className="workContainer">
+                    <img className="worklogo" src={microsoft}></img>
+
+                    <div className="workText">
+                        <div className="workCompany">Microsoft</div>
+                        <div className="workPosition">Software Engineering Intern</div>
+                        <div className="workLocation">May 2020 - Aug 2020 • Redmond, Washington, USA</div>
+
+                        <ul className="workDescription">
+                            <li>Azure Core Operating Systems Data Intelligence Group</li>
+                            <li>Incoming Software Engineering Intern for the Azure COSINE Group</li>
+                            <br></br>
+                        </ul>
+                    </div>
+                </div >
+                <br></br>
+                <div className="workContainer">
+                    <img className="worklogo" src={google}></img>
+
+                    <div className="workText">
+                        <div className="workCompany">Google</div>
+                        <div className="workPosition">Software Engineering Intern</div>
+                        <div className="workLocation">Jan 2020 - May 2020 • Waterloo, Ontario, Canada</div>
+
+                        <ul className="workDescription">
+                            <li>Google Kubernetes Engine (GKE) Team</li>
+                            <li>Incoming Software Engineering Intern on the GKE Team</li>
+                        </ul>
+                    </div>
+                </div >
+
+                <br></br>
 
                 <div className="workContainer">
                     <img className="worklogo" src={huawei}></img>
@@ -29,7 +64,7 @@ class Work extends React.Component {
                     </div>
                 </div >
 
-                <div className="workline"></div>
+                <br></br>
 
                 <div className="workContainer">
                     <img className="worklogo" src={roboedu}></img>
